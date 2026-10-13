@@ -1,0 +1,546 @@
+{
+  "course": "Frontend System Design Kit",
+  "start_url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/semantic-structure",
+  "count": 77,
+  "lessons": [
+    {
+      "index": 1,
+      "title": "Semantic structure",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/semantic-structure",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\01-semantic-structure.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/html5-apis-and-forms"
+    },
+    {
+      "index": 2,
+      "title": "Html5 apis and forms",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/html5-apis-and-forms",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\02-html5-apis-and-forms.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/loading-and-resource-hints"
+    },
+    {
+      "index": 3,
+      "title": "Loading and resource hints",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/loading-and-resource-hints",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\03-loading-and-resource-hints.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/aria-and-semantics"
+    },
+    {
+      "index": 4,
+      "title": "Aria and semantics",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/aria-and-semantics",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\04-aria-and-semantics.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/focus-management"
+    },
+    {
+      "index": 5,
+      "title": "Focus management",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/focus-management",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\05-focus-management.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/dynamic-content-and-forms"
+    },
+    {
+      "index": 6,
+      "title": "Dynamic content and forms",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/dynamic-content-and-forms",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\06-dynamic-content-and-forms.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/layout-and-visual"
+    },
+    {
+      "index": 7,
+      "title": "Layout and visual",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/layout-and-visual",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\07-layout-and-visual.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/architecture-and-scale"
+    },
+    {
+      "index": 8,
+      "title": "Architecture and scale",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/architecture-and-scale",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\08-architecture-and-scale.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/performance-and-animation"
+    },
+    {
+      "index": 9,
+      "title": "Performance and animation",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/performance-and-animation",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\09-performance-and-animation.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/typescript-fundamentals"
+    },
+    {
+      "index": 10,
+      "title": "Typescript Fundamentals",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/typescript-fundamentals",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\10-typescript-fundamentals.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/generics-advanced-types"
+    },
+    {
+      "index": 11,
+      "title": "Generics Advanced Types",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/generics-advanced-types",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\11-generics-advanced-types.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/typescript-in-practice"
+    },
+    {
+      "index": 12,
+      "title": "Typescript In Practice",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/typescript-in-practice",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\12-typescript-in-practice.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/networking-and-protocols"
+    },
+    {
+      "index": 13,
+      "title": "Networking And Protocols",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/networking-and-protocols",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\13-networking-and-protocols.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/browser-internals"
+    },
+    {
+      "index": 14,
+      "title": "Browser internals",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/browser-internals",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\14-browser-internals.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/realtime-and-browser-apis"
+    },
+    {
+      "index": 15,
+      "title": "Realtime and browser apis",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/realtime-and-browser-apis",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\15-realtime-and-browser-apis.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/common-attacks"
+    },
+    {
+      "index": 16,
+      "title": "Common attacks",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/common-attacks",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\16-common-attacks.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/authentication-and-authorization"
+    },
+    {
+      "index": 17,
+      "title": "Authentication and authorization",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/authentication-and-authorization",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\17-authentication-and-authorization.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/headers-and-infrastructure"
+    },
+    {
+      "index": 18,
+      "title": "Headers and infrastructure",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/headers-and-infrastructure",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\18-headers-and-infrastructure.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/core-rendering-strategies"
+    },
+    {
+      "index": 19,
+      "title": "Core rendering strategies",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/core-rendering-strategies",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\19-core-rendering-strategies.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/modern-rendering-patterns"
+    },
+    {
+      "index": 20,
+      "title": "Modern rendering patterns",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/modern-rendering-patterns",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\20-modern-rendering-patterns.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/rendering-and-loading"
+    },
+    {
+      "index": 21,
+      "title": "Rendering and loading",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/rendering-and-loading",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\21-rendering-and-loading.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/runtime-and-network"
+    },
+    {
+      "index": 22,
+      "title": "Runtime and network",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/runtime-and-network",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\22-runtime-and-network.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/measurement-and-strategy"
+    },
+    {
+      "index": 23,
+      "title": "Measurement and strategy",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/measurement-and-strategy",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\23-measurement-and-strategy.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/creational-patterns"
+    },
+    {
+      "index": 24,
+      "title": "Creational patterns",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/creational-patterns",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\24-creational-patterns.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/behavioral-patterns"
+    },
+    {
+      "index": 25,
+      "title": "Behavioral patterns",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/behavioral-patterns",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\25-behavioral-patterns.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/structural-patterns"
+    },
+    {
+      "index": 26,
+      "title": "Structural patterns",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/structural-patterns",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\26-structural-patterns.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/architectural-patterns"
+    },
+    {
+      "index": 27,
+      "title": "Architectural patterns",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/architectural-patterns",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\27-architectural-patterns.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/state-management"
+    },
+    {
+      "index": 28,
+      "title": "State management",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/state-management",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\28-state-management.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/foundations"
+    },
+    {
+      "index": 29,
+      "title": "Foundations",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/foundations",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\29-foundations.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/communication-and-realtime"
+    },
+    {
+      "index": 30,
+      "title": "Communication and realtime",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/communication-and-realtime",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\30-communication-and-realtime.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/content-and-media"
+    },
+    {
+      "index": 31,
+      "title": "Content and media",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/content-and-media",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\31-content-and-media.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ecommerce"
+    },
+    {
+      "index": 32,
+      "title": "Ecommerce",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ecommerce",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\32-ecommerce.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/productivity-and-saas"
+    },
+    {
+      "index": 33,
+      "title": "Productivity and saas",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/productivity-and-saas",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\33-productivity-and-saas.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/platform-and-infrastructure"
+    },
+    {
+      "index": 34,
+      "title": "Platform and infrastructure",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/platform-and-infrastructure",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\34-platform-and-infrastructure.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/modules-and-bundlers"
+    },
+    {
+      "index": 35,
+      "title": "Modules and bundlers",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/modules-and-bundlers",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\35-modules-and-bundlers.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/tooling-and-environment"
+    },
+    {
+      "index": 36,
+      "title": "Tooling and environment",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/tooling-and-environment",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\36-tooling-and-environment.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/code-management"
+    },
+    {
+      "index": 37,
+      "title": "Code Management",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/code-management",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\37-code-management.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/app-router-and-rendering"
+    },
+    {
+      "index": 38,
+      "title": "App router and rendering",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/app-router-and-rendering",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\38-app-router-and-rendering.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/features-and-deployment"
+    },
+    {
+      "index": 39,
+      "title": "Features and deployment",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/features-and-deployment",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\39-features-and-deployment.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ai-integration"
+    },
+    {
+      "index": 40,
+      "title": "AI Integration",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ai-integration",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\40-ai-integration.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ai-cost-tokens-models"
+    },
+    {
+      "index": 41,
+      "title": "Cost, Tokens & Model Selection",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ai-cost-tokens-models",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\41-cost-tokens-model-selection.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ai-tool-use-agents"
+    },
+    {
+      "index": 42,
+      "title": "Tool Use & Agentic UIs",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ai-tool-use-agents",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\42-tool-use-agentic-uis.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ai-reasoning-ui"
+    },
+    {
+      "index": 43,
+      "title": "Reasoning in the UI",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/ai-reasoning-ui",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\43-reasoning-in-the-ui.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/core-hooks"
+    },
+    {
+      "index": 44,
+      "title": "Core hooks",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/core-hooks",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\44-core-hooks.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/specialized-hooks"
+    },
+    {
+      "index": 45,
+      "title": "Specialized hooks",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/specialized-hooks",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\45-specialized-hooks.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/react-19-hooks"
+    },
+    {
+      "index": 46,
+      "title": "React 19 hooks",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/react-19-hooks",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\46-react-19-hooks.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/custom-hooks-and-rules"
+    },
+    {
+      "index": 47,
+      "title": "Custom hooks and rules",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/custom-hooks-and-rules",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\47-custom-hooks-and-rules.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/js-problems-sde1"
+    },
+    {
+      "index": 48,
+      "title": "JS Problems SDE1",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/js-problems-sde1",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\48-js-problems-sde1.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/js-problems-sde2"
+    },
+    {
+      "index": 49,
+      "title": "JS Problems SDE2",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/js-problems-sde2",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\49-js-problems-sde2.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/js-problems-sde3"
+    },
+    {
+      "index": 50,
+      "title": "JS Problems SDE3",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/js-problems-sde3",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\50-js-problems-sde3.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/problems"
+    },
+    {
+      "index": 51,
+      "title": "Problems",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/problems",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\51-problems.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/testing-fundamentals"
+    },
+    {
+      "index": 52,
+      "title": "Testing fundamentals",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/testing-fundamentals",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\52-testing-fundamentals.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/advanced-testing"
+    },
+    {
+      "index": 53,
+      "title": "Advanced testing",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/advanced-testing",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\53-advanced-testing.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/testing-patterns"
+    },
+    {
+      "index": 54,
+      "title": "Testing patterns",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/testing-patterns",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\54-testing-patterns.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/linear-data-structures"
+    },
+    {
+      "index": 55,
+      "title": "Linear data structures",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/linear-data-structures",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\55-linear-data-structures.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/hash-based-structures"
+    },
+    {
+      "index": 56,
+      "title": "Hash based structures",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/hash-based-structures",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\56-hash-based-structures.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/tree-and-graph-structures"
+    },
+    {
+      "index": 57,
+      "title": "Tree and graph structures",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/tree-and-graph-structures",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\57-tree-and-graph-structures.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/sorting-algorithms"
+    },
+    {
+      "index": 58,
+      "title": "Sorting algorithms",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/sorting-algorithms",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\58-sorting-algorithms.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/searching"
+    },
+    {
+      "index": 59,
+      "title": "Searching",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/searching",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\59-searching.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/two-pointer"
+    },
+    {
+      "index": 60,
+      "title": "Two pointer",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/two-pointer",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\60-two-pointer.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/sliding-window"
+    },
+    {
+      "index": 61,
+      "title": "Sliding window",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/sliding-window",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\61-sliding-window.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/recursion-backtracking"
+    },
+    {
+      "index": 62,
+      "title": "Recursion backtracking",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/recursion-backtracking",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\62-recursion-backtracking.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/dynamic-programming"
+    },
+    {
+      "index": 63,
+      "title": "Dynamic programming",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/dynamic-programming",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\63-dynamic-programming.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/greedy"
+    },
+    {
+      "index": 64,
+      "title": "Greedy",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/greedy",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\64-greedy.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/trees"
+    },
+    {
+      "index": 65,
+      "title": "Trees",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/trees",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\65-trees.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/graphs"
+    },
+    {
+      "index": 66,
+      "title": "Graphs",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/graphs",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\66-graphs.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/stack-queue"
+    },
+    {
+      "index": 67,
+      "title": "Stack queue",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/stack-queue",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\67-stack-queue.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/strings"
+    },
+    {
+      "index": 68,
+      "title": "Strings",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/strings",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\68-strings.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/bit-manipulation"
+    },
+    {
+      "index": 69,
+      "title": "Bit manipulation",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/bit-manipulation",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\69-bit-manipulation.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/math"
+    },
+    {
+      "index": 70,
+      "title": "Math",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/math",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\70-math.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/miscellaneous"
+    },
+    {
+      "index": 71,
+      "title": "Miscellaneous",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/miscellaneous",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\71-miscellaneous.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/approach-and-core-components"
+    },
+    {
+      "index": 72,
+      "title": "Approach and core components",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/approach-and-core-components",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\72-approach-and-core-components.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/form-and-input-components"
+    },
+    {
+      "index": 73,
+      "title": "Form and input components",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/form-and-input-components",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\73-form-and-input-components.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/layout-and-data-display"
+    },
+    {
+      "index": 74,
+      "title": "Layout and data display",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/layout-and-data-display",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\74-layout-and-data-display.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/applications-and-advanced"
+    },
+    {
+      "index": 75,
+      "title": "Applications and advanced",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/applications-and-advanced",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\75-applications-and-advanced.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/interview-guide"
+    },
+    {
+      "index": 76,
+      "title": "Interview guide",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/interview-guide",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\76-interview-guide.md",
+      "next": "https://www.geekyfrontend.in/learn/complete-frontend-kit/quick-revision-sheets"
+    },
+    {
+      "index": 77,
+      "title": "Quick revision sheets",
+      "url": "https://www.geekyfrontend.in/learn/complete-frontend-kit/quick-revision-sheets",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Frontend System Design Kit\\77-quick-revision-sheets.md",
+      "next": null
+    }
+  ]
+}
