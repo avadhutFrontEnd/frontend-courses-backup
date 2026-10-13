@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 300" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="300" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">ACID: the four guarantees</text>
+
+  <rect x="30" y="80" width="185" height="170" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="122" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#16a34a">Atomicity</text>
+  <text x="122" y="150" text-anchor="middle" font-size="12" fill="#334155">All steps commit</text>
+  <text x="122" y="170" text-anchor="middle" font-size="12" fill="#334155">or none do</text>
+  <text x="122" y="210" text-anchor="middle" font-size="12" fill="#64748b">no half-writes</text>
+
+  <rect x="225" y="80" width="185" height="170" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="317" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b82f6">Consistency</text>
+  <text x="317" y="150" text-anchor="middle" font-size="12" fill="#334155">Invariants hold</text>
+  <text x="317" y="170" text-anchor="middle" font-size="12" fill="#334155">before and after</text>
+  <text x="317" y="210" text-anchor="middle" font-size="12" fill="#64748b">rules never broken</text>
+
+  <rect x="420" y="80" width="185" height="170" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="512" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#9333ea">Isolation</text>
+  <text x="512" y="150" text-anchor="middle" font-size="12" fill="#334155">Concurrent txns</text>
+  <text x="512" y="170" text-anchor="middle" font-size="12" fill="#334155">don't see partials</text>
+  <text x="512" y="210" text-anchor="middle" font-size="12" fill="#64748b">as if serial</text>
+
+  <rect x="615" y="80" width="175" height="170" rx="14" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+  <text x="702" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#d97706">Durability</text>
+  <text x="702" y="150" text-anchor="middle" font-size="12" fill="#334155">Committed data</text>
+  <text x="702" y="170" text-anchor="middle" font-size="12" fill="#334155">survives crash</text>
+  <text x="702" y="210" text-anchor="middle" font-size="12" fill="#64748b">on disk, safe</text>
+
+  <text x="410" y="284" text-anchor="middle" font-size="13" fill="#64748b">A transaction upholds all four &#8212; the classic example is a bank transfer</text>
+</svg>

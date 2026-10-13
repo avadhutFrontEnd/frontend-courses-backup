@@ -1,0 +1,463 @@
+{
+  "course": "Java Interview Kit",
+  "format": "pdf",
+  "start_url": "https://www.geekyfrontend.in/learn/java-interview-kit/jdk-jre-jvm",
+  "count": 65,
+  "lessons": [
+    {
+      "index": 1,
+      "title": "JDK, JRE and JVM",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/jdk-jre-jvm",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\01-jdk-jre-and-jvm.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/how-java-runs"
+    },
+    {
+      "index": 2,
+      "title": "How Java Runs: Compilation, Bytecode and the JIT",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/how-java-runs",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\02-how-java-runs-compilation-bytecode-and-the-jit.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/primitives-vs-references"
+    },
+    {
+      "index": 3,
+      "title": "Primitives vs References",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/primitives-vs-references",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\03-primitives-vs-references.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/stack-vs-heap"
+    },
+    {
+      "index": 4,
+      "title": "Stack vs Heap: How Java Organises Memory",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/stack-vs-heap",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\04-stack-vs-heap-how-java-organises-memory.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/pass-by-value"
+    },
+    {
+      "index": 5,
+      "title": "Pass-by-Value: Java's Most Misunderstood Rule",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/pass-by-value",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\05-pass-by-value-javas-most-misunderstood-rule.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/classes-objects-constructors"
+    },
+    {
+      "index": 6,
+      "title": "Classes, Objects and Constructors",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/classes-objects-constructors",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\06-classes-objects-and-constructors.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/inheritance-and-overriding"
+    },
+    {
+      "index": 7,
+      "title": "Inheritance, Overriding and Polymorphism",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/inheritance-and-overriding",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\07-inheritance-overriding-and-polymorphism.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/abstract-class-vs-interface"
+    },
+    {
+      "index": 8,
+      "title": "Abstract Classes vs Interfaces",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/abstract-class-vs-interface",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\08-abstract-classes-vs-interfaces.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/encapsulation-access-modifiers"
+    },
+    {
+      "index": 9,
+      "title": "Encapsulation and Access Modifiers",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/encapsulation-access-modifiers",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\09-encapsulation-and-access-modifiers.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/equals-and-hashcode"
+    },
+    {
+      "index": 10,
+      "title": "equals() and hashCode(): The Contract",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/equals-and-hashcode",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\10-equals-and-hashcode-the-contract.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/static-final-initialization-order"
+    },
+    {
+      "index": 11,
+      "title": "static, final and Initialisation Order",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/static-final-initialization-order",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\11-static-final-and-initialisation-order.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/why-string-is-immutable"
+    },
+    {
+      "index": 12,
+      "title": "Why String Is Immutable",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/why-string-is-immutable",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\12-why-string-is-immutable.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/string-pool-and-interning"
+    },
+    {
+      "index": 13,
+      "title": "The String Pool and intern()",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/string-pool-and-interning",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\13-the-string-pool-and-intern.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/stringbuilder-vs-stringbuffer"
+    },
+    {
+      "index": 14,
+      "title": "String vs StringBuilder vs StringBuffer",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/stringbuilder-vs-stringbuffer",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\14-string-vs-stringbuilder-vs-stringbuffer.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/wrappers-and-integer-cache"
+    },
+    {
+      "index": 15,
+      "title": "Wrapper Classes, Autoboxing and the Integer Cache",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/wrappers-and-integer-cache",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\15-wrapper-classes-autoboxing-and-the-integer-cache.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/collection-hierarchy"
+    },
+    {
+      "index": 16,
+      "title": "The Collection Hierarchy",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/collection-hierarchy",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\16-the-collection-hierarchy.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/arraylist-vs-linkedlist"
+    },
+    {
+      "index": 17,
+      "title": "ArrayList vs LinkedList",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/arraylist-vs-linkedlist",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\17-arraylist-vs-linkedlist.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/hashmap-internals"
+    },
+    {
+      "index": 18,
+      "title": "HashMap Internals",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/hashmap-internals",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\18-hashmap-internals.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/linkedhashmap-and-treemap"
+    },
+    {
+      "index": 19,
+      "title": "LinkedHashMap and TreeMap",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/linkedhashmap-and-treemap",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\19-linkedhashmap-and-treemap.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/sets-and-uniqueness"
+    },
+    {
+      "index": 20,
+      "title": "Sets: HashSet, LinkedHashSet and TreeSet",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/sets-and-uniqueness",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\20-sets-hashset-linkedhashset-and-treeset.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/concurrent-collections"
+    },
+    {
+      "index": 21,
+      "title": "ConcurrentHashMap and Concurrent Collections",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/concurrent-collections",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\21-concurrenthashmap-and-concurrent-collections.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/fail-fast-vs-fail-safe"
+    },
+    {
+      "index": 22,
+      "title": "Fail-Fast vs Weakly Consistent Iterators",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/fail-fast-vs-fail-safe",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\22-fail-fast-vs-weakly-consistent-iterators.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/generics-and-type-erasure"
+    },
+    {
+      "index": 23,
+      "title": "Generics and Type Erasure",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/generics-and-type-erasure",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\23-generics-and-type-erasure.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/wildcards-and-pecs"
+    },
+    {
+      "index": 24,
+      "title": "Bounded Types and Wildcards (PECS)",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/wildcards-and-pecs",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\24-bounded-types-and-wildcards-pecs.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/comparable-vs-comparator"
+    },
+    {
+      "index": 25,
+      "title": "Comparable vs Comparator",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/comparable-vs-comparator",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\25-comparable-vs-comparator.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/throwable-hierarchy"
+    },
+    {
+      "index": 26,
+      "title": "The Throwable Hierarchy",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/throwable-hierarchy",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\26-the-throwable-hierarchy.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/checked-vs-unchecked"
+    },
+    {
+      "index": 27,
+      "title": "Checked vs Unchecked Exceptions",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/checked-vs-unchecked",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\27-checked-vs-unchecked-exceptions.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/finally-and-control-flow"
+    },
+    {
+      "index": 28,
+      "title": "try, catch, finally and Control Flow",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/finally-and-control-flow",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\28-try-catch-finally-and-control-flow.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/try-with-resources"
+    },
+    {
+      "index": 29,
+      "title": "try-with-resources and Suppressed Exceptions",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/try-with-resources",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\29-try-with-resources-and-suppressed-exceptions.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/custom-exceptions"
+    },
+    {
+      "index": 30,
+      "title": "Designing Custom Exceptions",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/custom-exceptions",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\30-designing-custom-exceptions.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/lambdas-and-functional-interfaces"
+    },
+    {
+      "index": 31,
+      "title": "Lambdas and Functional Interfaces",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/lambdas-and-functional-interfaces",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\31-lambdas-and-functional-interfaces.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/streams-and-laziness"
+    },
+    {
+      "index": 32,
+      "title": "Streams: Laziness and the Pipeline",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/streams-and-laziness",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\32-streams-laziness-and-the-pipeline.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/collectors-and-grouping"
+    },
+    {
+      "index": 33,
+      "title": "Collectors, groupingBy and Reduction",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/collectors-and-grouping",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\33-collectors-groupingby-and-reduction.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/parallel-streams"
+    },
+    {
+      "index": 34,
+      "title": "Parallel Streams: When They Help and When They Hurt",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/parallel-streams",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\34-parallel-streams-when-they-help-and-when-they-hurt.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/optional"
+    },
+    {
+      "index": 35,
+      "title": "Optional Done Right",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/optional",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\35-optional-done-right.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/thread-lifecycle"
+    },
+    {
+      "index": 36,
+      "title": "Threads: Creation and Lifecycle",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/thread-lifecycle",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\36-threads-creation-and-lifecycle.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/synchronized-and-races"
+    },
+    {
+      "index": 37,
+      "title": "Race Conditions and synchronized",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/synchronized-and-races",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\37-race-conditions-and-synchronized.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/volatile-and-jmm"
+    },
+    {
+      "index": 38,
+      "title": "volatile and the Java Memory Model",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/volatile-and-jmm",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\38-volatile-and-the-java-memory-model.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/locks-and-conditions"
+    },
+    {
+      "index": 39,
+      "title": "Locks: ReentrantLock, ReadWriteLock and Conditions",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/locks-and-conditions",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\39-locks-reentrantlock-readwritelock-and-conditions.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/deadlock-and-liveness"
+    },
+    {
+      "index": 40,
+      "title": "Deadlock, Livelock and Starvation",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/deadlock-and-liveness",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\40-deadlock-livelock-and-starvation.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/executors-and-thread-pools"
+    },
+    {
+      "index": 41,
+      "title": "Executors and Thread Pools",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/executors-and-thread-pools",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\41-executors-and-thread-pools.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/completablefuture"
+    },
+    {
+      "index": 42,
+      "title": "CompletableFuture and Asynchronous Composition",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/completablefuture",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\42-completablefuture-and-asynchronous-composition.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/atomics-and-cas"
+    },
+    {
+      "index": 43,
+      "title": "Atomics, CAS and Lock-Free Concurrency",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/atomics-and-cas",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\43-atomics-cas-and-lock-free-concurrency.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/classloading"
+    },
+    {
+      "index": 44,
+      "title": "Class Loading and the Delegation Model",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/classloading",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\44-class-loading-and-the-delegation-model.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/jvm-memory-areas"
+    },
+    {
+      "index": 45,
+      "title": "JVM Memory Areas",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/jvm-memory-areas",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\45-jvm-memory-areas.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/garbage-collection"
+    },
+    {
+      "index": 46,
+      "title": "Garbage Collection",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/garbage-collection",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\46-garbage-collection.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/jvm-troubleshooting"
+    },
+    {
+      "index": 47,
+      "title": "Diagnosing Memory and Performance Problems",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/jvm-troubleshooting",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\47-diagnosing-memory-and-performance-problems.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/var-and-text-blocks"
+    },
+    {
+      "index": 48,
+      "title": "var, Text Blocks and Small Language Wins",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/var-and-text-blocks",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\48-var-text-blocks-and-small-language-wins.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/records-and-sealed-types"
+    },
+    {
+      "index": 49,
+      "title": "Records and Sealed Types",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/records-and-sealed-types",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\49-records-and-sealed-types.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/pattern-matching"
+    },
+    {
+      "index": 50,
+      "title": "Pattern Matching and Switch Expressions",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/pattern-matching",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\50-pattern-matching-and-switch-expressions.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/virtual-threads"
+    },
+    {
+      "index": 51,
+      "title": "Virtual Threads and Structured Concurrency",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/virtual-threads",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\51-virtual-threads-and-structured-concurrency.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/ioc-and-dependency-injection"
+    },
+    {
+      "index": 52,
+      "title": "IoC and Dependency Injection",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/ioc-and-dependency-injection",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\52-ioc-and-dependency-injection.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/bean-lifecycle-and-scopes"
+    },
+    {
+      "index": 53,
+      "title": "Bean Lifecycle, Scopes and Proxies",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/bean-lifecycle-and-scopes",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\53-bean-lifecycle-scopes-and-proxies.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/spring-boot-autoconfiguration"
+    },
+    {
+      "index": 54,
+      "title": "Spring Boot Auto-Configuration",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/spring-boot-autoconfiguration",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\54-spring-boot-auto-configuration.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/spring-mvc-request-flow"
+    },
+    {
+      "index": 55,
+      "title": "Spring MVC: The Request Flow",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/spring-mvc-request-flow",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\55-spring-mvc-the-request-flow.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/jpa-entities-and-repositories"
+    },
+    {
+      "index": 56,
+      "title": "Entities, Mapping and Repositories",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/jpa-entities-and-repositories",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\56-entities-mapping-and-repositories.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/persistence-context"
+    },
+    {
+      "index": 57,
+      "title": "The Persistence Context and Entity States",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/persistence-context",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\57-the-persistence-context-and-entity-states.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/lazy-loading-and-n-plus-one"
+    },
+    {
+      "index": 58,
+      "title": "Lazy Loading and the N+1 Problem",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/lazy-loading-and-n-plus-one",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\58-lazy-loading-and-the-n1-problem.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/transactional"
+    },
+    {
+      "index": 59,
+      "title": "@Transactional: Propagation, Isolation and Traps",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/transactional",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\59-transactional-propagation-isolation-and-traps.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/rest-api-design"
+    },
+    {
+      "index": 60,
+      "title": "REST API Design in Spring",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/rest-api-design",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\60-rest-api-design-in-spring.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/spring-security-and-jwt"
+    },
+    {
+      "index": 61,
+      "title": "Spring Security and JWT",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/spring-security-and-jwt",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\61-spring-security-and-jwt.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/testing-junit-mockito"
+    },
+    {
+      "index": 62,
+      "title": "Testing: JUnit 5, Mockito and Spring Slices",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/testing-junit-mockito",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\62-testing-junit-5-mockito-and-spring-slices.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/solid-in-java"
+    },
+    {
+      "index": 63,
+      "title": "SOLID in Practice",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/solid-in-java",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\63-solid-in-practice.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/design-patterns"
+    },
+    {
+      "index": 64,
+      "title": "Design Patterns That Still Earn Their Keep",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/design-patterns",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\64-design-patterns-that-still-earn-their-keep.pdf",
+      "next": "https://www.geekyfrontend.in/learn/java-interview-kit/lld-walkthrough"
+    },
+    {
+      "index": 65,
+      "title": "Low-Level Design: Working Through a Problem",
+      "url": "https://www.geekyfrontend.in/learn/java-interview-kit/lld-walkthrough",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Java Interview Kit\\PDF\\65-low-level-design-working-through-a-problem.pdf",
+      "next": null
+    }
+  ]
+}

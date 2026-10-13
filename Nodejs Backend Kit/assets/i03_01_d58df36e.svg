@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 540" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="538" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">The Event Loop: Six Phases per Tick</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">Each phase drains its own queue, then hands off to the next. The loop repeats while work remains.</text>
+
+  <!-- center hub -->
+  <circle cx="410" cy="300" r="66" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="410" y="292" text-anchor="middle" font-size="15" font-weight="700" fill="#166534">libuv</text>
+  <text x="410" y="312" text-anchor="middle" font-size="13" fill="#166534">event loop</text>
+
+  <!-- Phase 1: timers (top) -->
+  <rect x="330" y="92" width="160" height="58" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="116" text-anchor="middle" font-size="15" font-weight="700" fill="#166534">1. timers</text>
+  <text x="410" y="136" text-anchor="middle" font-size="12" fill="#166534">setTimeout / setInterval</text>
+
+  <!-- Phase 2: pending callbacks (right-top) -->
+  <rect x="588" y="150" width="196" height="58" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="686" y="174" text-anchor="middle" font-size="15" font-weight="700" fill="#1d4ed8">2. pending callbacks</text>
+  <text x="686" y="194" text-anchor="middle" font-size="12" fill="#1d4ed8">deferred system errors</text>
+
+  <!-- Phase 3: poll (right-bottom) -->
+  <rect x="588" y="300" width="196" height="66" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="686" y="326" text-anchor="middle" font-size="15" font-weight="700" fill="#166534">3. poll</text>
+  <text x="686" y="345" text-anchor="middle" font-size="12" fill="#166534">I/O callbacks, may block</text>
+
+  <!-- Phase 4: check (bottom) -->
+  <rect x="330" y="450" width="160" height="58" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="474" text-anchor="middle" font-size="15" font-weight="700" fill="#7e22ce">4. check</text>
+  <text x="410" y="494" text-anchor="middle" font-size="12" fill="#7e22ce">setImmediate</text>
+
+  <!-- Phase 5: close (left-bottom) -->
+  <rect x="36" y="300" width="196" height="66" rx="12" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="134" y="326" text-anchor="middle" font-size="15" font-weight="700" fill="#c2410c">5. close callbacks</text>
+  <text x="134" y="345" text-anchor="middle" font-size="12" fill="#c2410c">socket.on('close')</text>
+
+  <!-- internal note (left-top) -->
+  <rect x="36" y="150" width="196" height="58" rx="12" fill="#f1f5f9" stroke="#94a3b8" stroke-width="2" stroke-dasharray="5 4"/>
+  <text x="134" y="174" text-anchor="middle" font-size="13" font-weight="700" fill="#475569">idle / prepare</text>
+  <text x="134" y="194" text-anchor="middle" font-size="12" fill="#64748b">internal use only</text>
+
+  <!-- arrows around the ring -->
+  <g stroke="#334155" stroke-width="2.5" fill="none" marker-end="url(#ah)">
+    <path d="M 494 128 Q 590 118 640 148"/>
+    <path d="M 686 210 L 686 296"/>
+    <path d="M 660 368 Q 560 440 494 470"/>
+    <path d="M 326 480 Q 210 458 168 368"/>
+    <path d="M 134 298 L 134 212"/>
+    <path d="M 168 176 Q 250 118 326 120"/>
+  </g>
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="378" text-anchor="middle" font-size="11.5" fill="#64748b">Between every phase, the microtask queue drains fully.</text>
+</svg>

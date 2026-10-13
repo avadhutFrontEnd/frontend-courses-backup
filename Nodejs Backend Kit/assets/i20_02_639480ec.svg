@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="320" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Same bytes, different views</text>
+
+  <rect x="300" y="70" width="220" height="56" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="93" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">Buffer bytes</text>
+  <text x="410" y="115" text-anchor="middle" font-size="13" fill="#334155" font-family="ui-monospace, monospace">4E 6F 64 65</text>
+
+  <line x1="410" y1="126" x2="150" y2="180" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="410" y1="126" x2="410" y2="180" stroke="#94a3b8" stroke-width="1.5"/>
+  <line x1="410" y1="126" x2="670" y2="180" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <rect x="40" y="180" width="220" height="90" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="150" y="208" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">utf8</text>
+  <text x="150" y="234" text-anchor="middle" font-size="15" fill="#334155" font-family="ui-monospace, monospace">&quot;Node&quot;</text>
+  <text x="150" y="257" text-anchor="middle" font-size="12" fill="#64748b">human text</text>
+
+  <rect x="300" y="180" width="220" height="90" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="208" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">hex</text>
+  <text x="410" y="234" text-anchor="middle" font-size="14" fill="#334155" font-family="ui-monospace, monospace">4e6f6465</text>
+  <text x="410" y="257" text-anchor="middle" font-size="12" fill="#64748b">digests, ids</text>
+
+  <rect x="560" y="180" width="220" height="90" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="670" y="208" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">base64</text>
+  <text x="670" y="234" text-anchor="middle" font-size="14" fill="#334155" font-family="ui-monospace, monospace">Tm9kZQ==</text>
+  <text x="670" y="257" text-anchor="middle" font-size="12" fill="#64748b">transport</text>
+
+  <text x="410" y="300" text-anchor="middle" font-size="13" fill="#64748b">Encoding is how you read/write the bytes, not the bytes themselves</text>
+</svg>

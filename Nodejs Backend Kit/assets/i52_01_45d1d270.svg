@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="380" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">node --inspect and the DevTools protocol</text>
+
+  <rect x="40" y="90" width="220" height="110" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="150" y="122" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">Node process</text>
+  <text x="150" y="148" text-anchor="middle" font-size="12" fill="#334155">--inspect opens a</text>
+  <text x="150" y="168" text-anchor="middle" font-size="12" fill="#334155">WebSocket on</text>
+  <text x="150" y="188" text-anchor="middle" font-size="12" fill="#334155">127.0.0.1:9229</text>
+
+  <rect x="300" y="90" width="220" height="110" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="122" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">V8 Inspector</text>
+  <text x="410" y="148" text-anchor="middle" font-size="12" fill="#334155">Chrome DevTools</text>
+  <text x="410" y="168" text-anchor="middle" font-size="12" fill="#334155">Protocol (CDP):</text>
+  <text x="410" y="188" text-anchor="middle" font-size="12" fill="#334155">breakpoints, heap</text>
+
+  <rect x="560" y="90" width="220" height="110" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="670" y="122" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">Client</text>
+  <text x="670" y="148" text-anchor="middle" font-size="12" fill="#334155">chrome://inspect,</text>
+  <text x="670" y="168" text-anchor="middle" font-size="12" fill="#334155">VS Code, or the</text>
+  <text x="670" y="188" text-anchor="middle" font-size="12" fill="#334155">built-in node debug</text>
+
+  <line x1="260" y1="145" x2="296" y2="145" stroke="#94a3b8" stroke-width="2" marker-end="url(#a12b)"/>
+  <line x1="520" y1="145" x2="556" y2="145" stroke="#94a3b8" stroke-width="2" marker-end="url(#a12b)"/>
+
+  <rect x="120" y="240" width="580" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="410" y="270" text-anchor="middle" font-size="14" font-weight="bold" fill="#dc2626">--inspect-brk pauses on line 1 so you can set breakpoints before code runs</text>
+  <text x="410" y="298" text-anchor="middle" font-size="12" fill="#334155">Never expose 9229 in production &#8212; it is a full remote-code-execution channel.</text>
+  <text x="410" y="318" text-anchor="middle" font-size="12" fill="#334155">Bind to localhost and tunnel over SSH instead.</text>
+
+  <defs>
+    <marker id="a12b" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

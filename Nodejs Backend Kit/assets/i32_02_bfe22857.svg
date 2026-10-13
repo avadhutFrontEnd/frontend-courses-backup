@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="10" y="10" width="800" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="410" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Mounting Routers on a base path</text>
+
+  <rect x="290" y="76" width="240" height="70" rx="12" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="410" y="108" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">app (the main app)</text>
+  <text x="410" y="130" text-anchor="middle" font-size="12" fill="#64748b">app.use('/api/users', usersRouter)</text>
+
+  <rect x="60" y="200" width="330" height="140" rx="12" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="225" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">usersRouter</text>
+  <text x="225" y="256" text-anchor="middle" font-size="12" fill="#64748b">mounted at /api/users</text>
+  <text x="225" y="286" text-anchor="middle" font-size="12" fill="#334155">router.get('/')  =&gt; GET /api/users</text>
+  <text x="225" y="308" text-anchor="middle" font-size="12" fill="#334155">router.get('/:id') =&gt; GET /api/users/42</text>
+  <text x="225" y="330" text-anchor="middle" font-size="12" fill="#334155">router.post('/') =&gt; POST /api/users</text>
+
+  <rect x="430" y="200" width="330" height="140" rx="12" fill="#faf5ff" stroke="#9333ea"/>
+  <text x="595" y="230" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">ordersRouter</text>
+  <text x="595" y="256" text-anchor="middle" font-size="12" fill="#64748b">mounted at /api/orders</text>
+  <text x="595" y="286" text-anchor="middle" font-size="12" fill="#334155">router.get('/')  =&gt; GET /api/orders</text>
+  <text x="595" y="308" text-anchor="middle" font-size="12" fill="#334155">router.get('/:id') =&gt; GET /api/orders/9</text>
+  <text x="595" y="330" text-anchor="middle" font-size="12" fill="#64748b">paths inside a Router are relative</text>
+
+  <line x1="360" y1="146" x2="240" y2="198" stroke="#94a3b8" stroke-width="2" marker-end="url(#a8c)"/>
+  <line x1="460" y1="146" x2="580" y2="198" stroke="#94a3b8" stroke-width="2" marker-end="url(#a8c)"/>
+
+  <defs>
+    <marker id="a8c" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

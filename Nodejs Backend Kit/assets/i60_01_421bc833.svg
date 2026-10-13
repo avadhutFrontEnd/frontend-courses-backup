@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="468" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">child_process: Which Method When</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">Four doors to the OS — they differ in buffering, shell use, and IPC.</text>
+
+  <!-- spawn -->
+  <rect x="30" y="90" width="380" height="170" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="220" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">spawn()</text>
+  <text x="50" y="146" font-size="12" fill="#166534">Streams stdout/stderr as data arrives</text>
+  <text x="50" y="168" font-size="12" fill="#166534">No output size limit — great for large output</text>
+  <text x="50" y="190" font-size="12" fill="#166534">No shell by default (safer from injection)</text>
+  <text x="50" y="212" font-size="12" fill="#166534">Use for: long-running / streaming processes</text>
+  <text x="50" y="240" font-size="12" font-weight="700" fill="#166534">ffmpeg, git, tail -f, backups</text>
+
+  <!-- exec -->
+  <rect x="410" y="90" width="380" height="170" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="600" y="118" text-anchor="middle" font-size="16" font-weight="700" fill="#1d4ed8">exec()</text>
+  <text x="430" y="146" font-size="12" fill="#1d4ed8">Buffers ALL output, then one callback</text>
+  <text x="430" y="168" font-size="12" fill="#1d4ed8">Runs in a shell (pipes, &amp;&amp;, globs work)</text>
+  <text x="430" y="190" font-size="12" fill="#1d4ed8">maxBuffer cap (default 1MB) — can overflow</text>
+  <text x="430" y="212" font-size="12" fill="#1d4ed8">Use for: short commands, small output</text>
+  <text x="430" y="240" font-size="12" font-weight="700" fill="#1d4ed8">never with untrusted input</text>
+
+  <!-- execFile -->
+  <rect x="30" y="272" width="380" height="170" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="2.5"/>
+  <text x="220" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#c2410c">execFile()</text>
+  <text x="50" y="328" font-size="12" fill="#c2410c">Like exec but NO shell — runs binary directly</text>
+  <text x="50" y="350" font-size="12" fill="#c2410c">Args passed as array, not a string</text>
+  <text x="50" y="372" font-size="12" fill="#c2410c">Safer: no shell metacharacter parsing</text>
+  <text x="50" y="394" font-size="12" fill="#c2410c">Use for: one binary + args, buffered output</text>
+  <text x="50" y="422" font-size="12" font-weight="700" fill="#c2410c">preferred over exec for user input</text>
+
+  <!-- fork -->
+  <rect x="410" y="272" width="380" height="170" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2.5"/>
+  <text x="600" y="300" text-anchor="middle" font-size="16" font-weight="700" fill="#7e22ce">fork()</text>
+  <text x="430" y="328" font-size="12" fill="#7e22ce">Spawns a new Node process running a JS file</text>
+  <text x="430" y="350" font-size="12" fill="#7e22ce">Built-in IPC channel: child.send() / message</text>
+  <text x="430" y="372" font-size="12" fill="#7e22ce">Messages are JSON-serialized, not shared mem</text>
+  <text x="430" y="394" font-size="12" fill="#7e22ce">Use for: Node subprocess you talk to</text>
+  <text x="430" y="422" font-size="12" font-weight="700" fill="#7e22ce">what cluster uses under the hood</text>
+</svg>

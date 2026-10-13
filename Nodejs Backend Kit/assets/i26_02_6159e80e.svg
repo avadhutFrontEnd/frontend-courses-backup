@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+  <rect x="10" y="10" width="800" height="380" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="410" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">pipe() vs. pipeline() on Error</text>
+
+  <!-- pipe -->
+  <rect x="40" y="76" width="350" height="290" rx="14" fill="#fef2f2" stroke="#dc2626"/>
+  <text x="215" y="106" text-anchor="middle" font-size="17" font-weight="bold" fill="#dc2626">a.pipe(b).pipe(c)</text>
+  <rect x="70" y="128" width="80" height="40" rx="9" fill="#fff" stroke="#94a3b8"/>
+  <text x="110" y="153" text-anchor="middle" font-size="13" fill="#334155">a</text>
+  <rect x="180" y="128" width="80" height="40" rx="9" fill="#fff" stroke="#dc2626"/>
+  <text x="220" y="153" text-anchor="middle" font-size="13" fill="#dc2626">b ✗</text>
+  <rect x="290" y="128" width="80" height="40" rx="9" fill="#fff" stroke="#94a3b8"/>
+  <text x="330" y="153" text-anchor="middle" font-size="13" fill="#334155">c</text>
+  <text x="215" y="210" text-anchor="middle" font-size="13" fill="#334155">b errors and is destroyed...</text>
+  <text x="215" y="238" text-anchor="middle" font-size="13" fill="#dc2626">but a and c are NOT closed</text>
+  <text x="215" y="266" text-anchor="middle" font-size="13" fill="#dc2626">→ leaked file handles / sockets</text>
+  <text x="215" y="308" text-anchor="middle" font-size="12" fill="#64748b">You must catch errors on every</text>
+  <text x="215" y="326" text-anchor="middle" font-size="12" fill="#64748b">stream and clean up by hand</text>
+
+  <!-- pipeline -->
+  <rect x="430" y="76" width="350" height="290" rx="14" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="605" y="106" text-anchor="middle" font-size="17" font-weight="bold" fill="#16a34a">pipeline(a, b, c, cb)</text>
+  <rect x="460" y="128" width="80" height="40" rx="9" fill="#fff" stroke="#16a34a"/>
+  <text x="500" y="153" text-anchor="middle" font-size="13" fill="#16a34a">a</text>
+  <rect x="570" y="128" width="80" height="40" rx="9" fill="#fff" stroke="#dc2626"/>
+  <text x="610" y="153" text-anchor="middle" font-size="13" fill="#dc2626">b ✗</text>
+  <rect x="680" y="128" width="80" height="40" rx="9" fill="#fff" stroke="#16a34a"/>
+  <text x="720" y="153" text-anchor="middle" font-size="13" fill="#16a34a">c</text>
+  <text x="605" y="210" text-anchor="middle" font-size="13" fill="#334155">b errors...</text>
+  <text x="605" y="238" text-anchor="middle" font-size="13" fill="#16a34a">a and c destroyed automatically</text>
+  <text x="605" y="266" text-anchor="middle" font-size="13" fill="#16a34a">→ no leaks, one error callback</text>
+  <text x="605" y="308" text-anchor="middle" font-size="12" fill="#64748b">Prefer stream/promises pipeline:</text>
+  <text x="605" y="326" text-anchor="middle" font-size="12" fill="#64748b">await pipeline(a, b, c)</text>
+</svg>

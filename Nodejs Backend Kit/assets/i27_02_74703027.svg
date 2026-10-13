@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340">
+  <rect x="10" y="10" width="800" height="320" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="bold" fill="#0f172a">createServer sits on the event loop</text>
+
+  <rect x="300" y="80" width="220" height="66" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="108" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="bold" fill="#166534">http.createServer(fn)</text>
+  <text x="410" y="130" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">.listen(3000)</text>
+
+  <rect x="70" y="210" width="200" height="64" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="170" y="238" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">'request'</text>
+  <text x="170" y="258" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">per incoming request</text>
+
+  <rect x="310" y="210" width="200" height="64" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="238" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e3a8a">'connection'</text>
+  <text x="410" y="258" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">per TCP socket</text>
+
+  <rect x="550" y="210" width="200" height="64" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="650" y="238" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#6b21a8">'close' / 'error'</text>
+  <text x="650" y="258" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">lifecycle</text>
+
+  <line x1="380" y1="146" x2="180" y2="208" stroke="#64748b" stroke-width="2" marker-end="url(#e7)"/>
+  <line x1="410" y1="146" x2="410" y2="208" stroke="#64748b" stroke-width="2" marker-end="url(#e7)"/>
+  <line x1="440" y1="146" x2="640" y2="208" stroke="#64748b" stroke-width="2" marker-end="url(#e7)"/>
+
+  <text x="410" y="300" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">The server is an EventEmitter — the callback you pass is just a 'request' listener</text>
+
+  <defs>
+    <marker id="e7" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

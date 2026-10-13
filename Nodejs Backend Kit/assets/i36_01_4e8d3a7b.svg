@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="440" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">The six REST constraints</text>
+
+  <rect x="40" y="80" width="230" height="100" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="155" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">Client-Server</text>
+  <text x="155" y="140" text-anchor="middle" font-size="13" fill="#334155">separate UI</text>
+  <text x="155" y="160" text-anchor="middle" font-size="13" fill="#334155">from storage</text>
+
+  <rect x="295" y="80" width="230" height="100" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">Stateless</text>
+  <text x="410" y="140" text-anchor="middle" font-size="13" fill="#334155">no server memory</text>
+  <text x="410" y="160" text-anchor="middle" font-size="13" fill="#334155">of past requests</text>
+
+  <rect x="550" y="80" width="230" height="100" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="665" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#9333ea">Cacheable</text>
+  <text x="665" y="140" text-anchor="middle" font-size="13" fill="#334155">responses label</text>
+  <text x="665" y="160" text-anchor="middle" font-size="13" fill="#334155">themselves</text>
+
+  <rect x="40" y="200" width="230" height="100" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="155" y="232" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">Layered System</text>
+  <text x="155" y="260" text-anchor="middle" font-size="13" fill="#334155">proxies, gateways</text>
+  <text x="155" y="280" text-anchor="middle" font-size="13" fill="#334155">stay invisible</text>
+
+  <rect x="295" y="200" width="230" height="100" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="232" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">Uniform Interface</text>
+  <text x="410" y="260" text-anchor="middle" font-size="13" fill="#334155">resources + verbs</text>
+  <text x="410" y="280" text-anchor="middle" font-size="13" fill="#334155">the core rule</text>
+
+  <rect x="550" y="200" width="230" height="100" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="665" y="232" text-anchor="middle" font-size="16" font-weight="bold" fill="#9333ea">Code on Demand</text>
+  <text x="665" y="260" text-anchor="middle" font-size="13" fill="#334155">optional</text>
+  <text x="665" y="280" text-anchor="middle" font-size="13" fill="#334155">send scripts</text>
+
+  <rect x="150" y="330" width="520" height="70" rx="14" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="360" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">Uniform Interface = the four sub-constraints</text>
+  <text x="410" y="384" text-anchor="middle" font-size="13" fill="#334155">identify resources &#183; manipulate via representations &#183; self-descriptive &#183; HATEOAS</text>
+
+  <text x="410" y="426" text-anchor="middle" font-size="13" fill="#64748b">Five are mandatory; Code on Demand is the only optional constraint</text>
+</svg>

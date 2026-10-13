@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+  <rect x="10" y="10" width="800" height="380" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="410" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Readable Modes: Paused vs. Flowing</text>
+
+  <!-- Paused -->
+  <rect x="40" y="76" width="350" height="290" rx="14" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="215" y="106" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b82f6">Paused (pull)</text>
+  <text x="215" y="130" text-anchor="middle" font-size="13" fill="#334155">You call read() to pull data</text>
+  <rect x="70" y="150" width="290" height="40" rx="9" fill="#fff" stroke="#3b82f6"/>
+  <text x="215" y="175" text-anchor="middle" font-size="13" fill="#3b82f6">on('readable', () =&gt; stream.read())</text>
+  <text x="215" y="222" text-anchor="middle" font-size="13" fill="#64748b">Data waits in the buffer</text>
+  <text x="215" y="244" text-anchor="middle" font-size="13" fill="#64748b">until you ask for it</text>
+  <rect x="70" y="270" width="290" height="72" rx="9" fill="#fff" stroke="#94a3b8"/>
+  <text x="215" y="298" text-anchor="middle" font-size="12" fill="#334155">Default state of a new stream.</text>
+  <text x="215" y="320" text-anchor="middle" font-size="12" fill="#334155">Full control over pacing.</text>
+
+  <!-- Flowing -->
+  <rect x="430" y="76" width="350" height="290" rx="14" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="605" y="106" text-anchor="middle" font-size="17" font-weight="bold" fill="#16a34a">Flowing (push)</text>
+  <text x="605" y="130" text-anchor="middle" font-size="13" fill="#334155">Data pushed at you via events</text>
+  <rect x="460" y="150" width="290" height="40" rx="9" fill="#fff" stroke="#16a34a"/>
+  <text x="605" y="175" text-anchor="middle" font-size="13" fill="#16a34a">on('data', chunk =&gt; ...)</text>
+  <text x="605" y="222" text-anchor="middle" font-size="13" fill="#64748b">Chunks arrive as fast as</text>
+  <text x="605" y="244" text-anchor="middle" font-size="13" fill="#64748b">the source can produce them</text>
+  <rect x="460" y="270" width="290" height="72" rx="9" fill="#fff" stroke="#94a3b8"/>
+  <text x="605" y="298" text-anchor="middle" font-size="12" fill="#334155">Started by 'data', pipe(),</text>
+  <text x="605" y="320" text-anchor="middle" font-size="12" fill="#334155">or resume(). Risk: no pausing.</text>
+</svg>

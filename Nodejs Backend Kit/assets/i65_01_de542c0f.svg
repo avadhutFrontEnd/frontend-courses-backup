@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440">
+  <rect x="10" y="10" width="800" height="420" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="bold" fill="#0f172a">REST vs GraphQL: fetching one screen</text>
+
+  <rect x="40" y="70" width="345" height="340" rx="16" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="212" y="100" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e40af">REST: many endpoints</text>
+  <text x="212" y="132" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">GET /users/1</text>
+  <text x="212" y="154" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">GET /users/1/posts</text>
+  <text x="212" y="176" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">GET /posts/9/comments</text>
+  <text x="212" y="212" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">3 round-trips (waterfall)</text>
+  <text x="212" y="250" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#b91c1c">Over-fetch: fields you ignore</text>
+  <text x="212" y="278" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#b91c1c">Under-fetch: N+1 endpoints</text>
+  <text x="212" y="322" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Server decides the shape.</text>
+  <text x="212" y="344" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Great caching via HTTP + URL.</text>
+  <text x="212" y="382" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Simple, cacheable, chatty</text>
+
+  <rect x="435" y="70" width="345" height="340" rx="16" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="607" y="100" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#6b21a8">GraphQL: one endpoint</text>
+  <text x="607" y="132" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">POST /graphql</text>
+  <text x="607" y="158" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">query { user(id:1) { name</text>
+  <text x="607" y="178" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">posts { title comments { text }}}}</text>
+  <text x="607" y="214" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">1 round-trip, exact fields</text>
+  <text x="607" y="252" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#166534">Client decides the shape</text>
+  <text x="607" y="280" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#b91c1c">Cost: N+1 in resolvers</text>
+  <text x="607" y="322" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Typed schema = introspection.</text>
+  <text x="607" y="344" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">HTTP caching is harder (POST).</text>
+  <text x="607" y="382" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#6b21a8">Flexible, typed, needs batching</text>
+</svg>

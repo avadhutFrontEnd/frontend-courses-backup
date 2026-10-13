@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="340" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">With an index vs without</text>
+
+  <rect x="40" y="80" width="350" height="220" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="215" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#dc2626">No index: collection scan</text>
+  <rect x="70" y="130" width="55" height="40" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="135" y="130" width="55" height="40" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="200" y="130" width="55" height="40" rx="6" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+  <rect x="265" y="130" width="55" height="40" rx="6" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+  <text x="292" y="155" text-anchor="middle" font-size="12" fill="#dc2626">hit</text>
+  <text x="215" y="210" text-anchor="middle" font-size="12" fill="#334155">Reads every document, checks each</text>
+  <text x="215" y="235" text-anchor="middle" font-size="12" fill="#64748b">O(n) &#8212; slow as data grows</text>
+  <text x="215" y="270" text-anchor="middle" font-size="13" font-weight="bold" fill="#dc2626">1,000,000 docs examined</text>
+
+  <rect x="430" y="80" width="350" height="220" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="605" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">Index: B-tree lookup</text>
+  <rect x="560" y="128" width="90" height="34" rx="6" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="605" y="150" text-anchor="middle" font-size="12" fill="#334155">root</text>
+  <rect x="490" y="180" width="90" height="34" rx="6" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <rect x="630" y="180" width="90" height="34" rx="6" fill="#dcfce7" stroke="#16a34a" stroke-width="2"/>
+  <text x="675" y="202" text-anchor="middle" font-size="12" fill="#16a34a">hit</text>
+  <line x1="590" y1="162" x2="535" y2="180" stroke="#16a34a" stroke-width="2"/>
+  <line x1="620" y1="162" x2="675" y2="180" stroke="#16a34a" stroke-width="2"/>
+  <text x="605" y="252" text-anchor="middle" font-size="12" fill="#334155">Follows a sorted tree to the match</text>
+  <text x="605" y="277" text-anchor="middle" font-size="13" font-weight="bold" fill="#16a34a">~20 docs examined, O(log n)</text>
+
+  <text x="410" y="326" text-anchor="middle" font-size="13" fill="#64748b">The right index turns a table scan into a handful of reads</text>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="320" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Validation at the edge</text>
+
+  <rect x="30" y="110" width="150" height="90" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="105" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">Request</text>
+  <text x="105" y="174" text-anchor="middle" font-size="12" fill="#334155">body / query</text>
+
+  <rect x="220" y="110" width="170" height="90" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="305" y="145" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">Validate</text>
+  <text x="305" y="169" text-anchor="middle" font-size="12" fill="#334155">zod / Joi schema</text>
+  <text x="305" y="189" text-anchor="middle" font-size="12" fill="#334155">coerce + strip</text>
+
+  <rect x="430" y="110" width="170" height="90" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="515" y="145" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">Controller</text>
+  <text x="515" y="169" text-anchor="middle" font-size="12" fill="#334155">trusts typed</text>
+  <text x="515" y="189" text-anchor="middle" font-size="12" fill="#334155">clean data</text>
+
+  <rect x="640" y="110" width="150" height="90" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="715" y="150" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">DB layer</text>
+  <text x="715" y="174" text-anchor="middle" font-size="12" fill="#334155">safe query</text>
+
+  <line x1="180" y1="155" x2="218" y2="155" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="390" y1="155" x2="428" y2="155" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+  <line x1="600" y1="155" x2="638" y2="155" stroke="#64748b" stroke-width="2" marker-end="url(#a)"/>
+
+  <rect x="220" y="228" width="170" height="56" rx="12" fill="#ffffff" stroke="#dc2626" stroke-width="2"/>
+  <text x="305" y="252" text-anchor="middle" font-size="13" font-weight="bold" fill="#dc2626">fail &#8594; 422</text>
+  <text x="305" y="272" text-anchor="middle" font-size="12" fill="#334155">reject early</text>
+  <line x1="305" y1="200" x2="305" y2="226" stroke="#dc2626" stroke-width="2" marker-end="url(#r)"/>
+
+  <defs>
+    <marker id="a" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#64748b"/></marker>
+    <marker id="r" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#dc2626"/></marker>
+  </defs>
+
+  <text x="410" y="308" text-anchor="middle" font-size="13" fill="#64748b">Never let unvalidated input reach business logic or the database</text>
+</svg>

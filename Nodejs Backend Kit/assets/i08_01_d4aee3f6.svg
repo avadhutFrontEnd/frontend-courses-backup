@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="0" y="0" width="820" height="380" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="40" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">The Module Wrapper Function</text>
+  <text x="410" y="66" text-anchor="middle" font-size="14" fill="#64748b">Node silently wraps every file before running it</text>
+
+  <rect x="60" y="90" width="700" height="70" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="80" y="120" font-size="15" font-weight="700" fill="#1e3a8a">Your file: math.js</text>
+  <text x="80" y="145" font-size="13" fill="#334155" font-family="ui-monospace,monospace">const add = (a, b) =&gt; a + b;  module.exports = add;</text>
+
+  <text x="410" y="192" text-anchor="middle" font-size="26" fill="#64748b">&#8595;</text>
+
+  <rect x="60" y="205" width="700" height="140" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="80" y="232" font-size="15" font-weight="700" fill="#166534">What Node actually runs</text>
+  <text x="80" y="258" font-size="13" fill="#334155" font-family="ui-monospace,monospace">(function (exports, require, module, __filename, __dirname) {</text>
+  <text x="100" y="282" font-size="13" fill="#334155" font-family="ui-monospace,monospace">const add = (a, b) =&gt; a + b;</text>
+  <text x="100" y="304" font-size="13" fill="#334155" font-family="ui-monospace,monospace">module.exports = add;</text>
+  <text x="80" y="328" font-size="13" fill="#334155" font-family="ui-monospace,monospace">});  // called with the 5 arguments above</text>
+</svg>

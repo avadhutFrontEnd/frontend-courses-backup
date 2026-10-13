@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="338" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">One Core vs All Cores</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">A single Node process uses one CPU core; cluster fans work out across every core.</text>
+
+  <!-- single -->
+  <rect x="36" y="90" width="360" height="220" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2.5"/>
+  <text x="216" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#b91c1c">Single process (default)</text>
+  <g>
+    <rect x="60" y="140" width="70" height="150" rx="9" fill="#fee2e2" stroke="#dc2626" stroke-width="1.8"/>
+    <text x="95" y="272" text-anchor="middle" font-size="12" fill="#b91c1c">core 0</text>
+    <text x="95" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#b91c1c">busy</text>
+    <rect x="145" y="140" width="70" height="150" rx="9" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.8"/>
+    <text x="180" y="272" text-anchor="middle" font-size="12" fill="#94a3b8">core 1</text>
+    <text x="180" y="220" text-anchor="middle" font-size="11" fill="#94a3b8">idle</text>
+    <rect x="230" y="140" width="70" height="150" rx="9" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.8"/>
+    <text x="265" y="272" text-anchor="middle" font-size="12" fill="#94a3b8">core 2</text>
+    <text x="265" y="220" text-anchor="middle" font-size="11" fill="#94a3b8">idle</text>
+    <rect x="315" y="140" width="61" height="150" rx="9" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.8"/>
+    <text x="345" y="272" text-anchor="middle" font-size="12" fill="#94a3b8">core 3</text>
+    <text x="345" y="220" text-anchor="middle" font-size="11" fill="#94a3b8">idle</text>
+  </g>
+
+  <!-- cluster -->
+  <rect x="424" y="90" width="360" height="220" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="604" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">cluster (4 workers)</text>
+  <g>
+    <rect x="448" y="140" width="70" height="150" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="483" y="272" text-anchor="middle" font-size="12" fill="#166534">core 0</text>
+    <text x="483" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">busy</text>
+    <rect x="533" y="140" width="70" height="150" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="568" y="272" text-anchor="middle" font-size="12" fill="#166534">core 1</text>
+    <text x="568" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">busy</text>
+    <rect x="618" y="140" width="70" height="150" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="653" y="272" text-anchor="middle" font-size="12" fill="#166534">core 2</text>
+    <text x="653" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">busy</text>
+    <rect x="703" y="140" width="61" height="150" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="733" y="272" text-anchor="middle" font-size="12" fill="#166534">core 3</text>
+    <text x="733" y="220" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">busy</text>
+  </g>
+</svg>

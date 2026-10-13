@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Anatomy of a path</text>
+
+  <rect x="60" y="70" width="700" height="50" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="102" text-anchor="middle" font-size="16" fill="#334155" font-family="ui-monospace, monospace">/home/app/data/report.csv</text>
+
+  <rect x="60" y="150" width="330" height="60" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="225" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">dirname</text>
+  <text x="225" y="198" text-anchor="middle" font-size="13" fill="#334155" font-family="ui-monospace, monospace">/home/app/data</text>
+
+  <rect x="430" y="150" width="330" height="60" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="595" y="176" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">basename</text>
+  <text x="595" y="198" text-anchor="middle" font-size="13" fill="#334155" font-family="ui-monospace, monospace">report.csv</text>
+
+  <rect x="60" y="230" width="330" height="60" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="225" y="256" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">name</text>
+  <text x="225" y="278" text-anchor="middle" font-size="13" fill="#334155" font-family="ui-monospace, monospace">report</text>
+
+  <rect x="430" y="230" width="330" height="60" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="595" y="256" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">ext</text>
+  <text x="595" y="278" text-anchor="middle" font-size="13" fill="#334155" font-family="ui-monospace, monospace">.csv</text>
+
+  <text x="410" y="330" text-anchor="middle" font-size="13" fill="#64748b">path.parse() returns all four at once &#8212; never split on &quot;/&quot; by hand</text>
+</svg>

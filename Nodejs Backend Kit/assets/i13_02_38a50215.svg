@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="10" y="10" width="800" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="45" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Callback hell: the rightward drift</text>
+
+  <rect x="60" y="80" width="700" height="46" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="80" y="108" font-size="14" font-weight="bold" fill="#0f172a">getUser(id, (e, user) =&gt; {</text>
+
+  <rect x="110" y="140" width="650" height="46" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="130" y="168" font-size="14" font-weight="bold" fill="#0f172a">getOrders(user, (e, orders) =&gt; {</text>
+
+  <rect x="160" y="200" width="600" height="46" rx="10" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="180" y="228" font-size="14" font-weight="bold" fill="#0f172a">getItems(orders, (e, items) =&gt; {</text>
+
+  <rect x="210" y="260" width="550" height="46" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="230" y="288" font-size="14" font-weight="bold" fill="#0f172a">charge(items, (e, ok) =&gt; { ... })</text>
+
+  <text x="410" y="340" text-anchor="middle" font-size="14" fill="#64748b">Each nested level repeats its own if (e) check — the pyramid of doom.</text>
+</svg>

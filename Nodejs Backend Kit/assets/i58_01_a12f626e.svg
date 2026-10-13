@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 460" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="458" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">The cluster Primary / Worker Model</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">One primary forks N workers; the OS shares one listening socket across them.</text>
+
+  <!-- primary -->
+  <rect x="290" y="86" width="240" height="70" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="410" y="116" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">Primary process</text>
+  <text x="410" y="138" text-anchor="middle" font-size="12" fill="#166534">forks workers, no request handling</text>
+
+  <!-- lines to workers -->
+  <g stroke="#94a3b8" stroke-width="2">
+    <line x1="410" y1="156" x2="130" y2="230"/>
+    <line x1="410" y1="156" x2="317" y2="230"/>
+    <line x1="410" y1="156" x2="503" y2="230"/>
+    <line x1="410" y1="156" x2="690" y2="230"/>
+  </g>
+
+  <!-- workers -->
+  <g>
+    <rect x="40" y="230" width="180" height="66" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="130" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">Worker 1</text>
+    <text x="130" y="279" text-anchor="middle" font-size="12" fill="#3b82f6">pid, own event loop</text>
+
+    <rect x="227" y="230" width="180" height="66" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="317" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">Worker 2</text>
+    <text x="317" y="279" text-anchor="middle" font-size="12" fill="#3b82f6">pid, own event loop</text>
+
+    <rect x="413" y="230" width="180" height="66" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="503" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">Worker 3</text>
+    <text x="503" y="279" text-anchor="middle" font-size="12" fill="#3b82f6">pid, own event loop</text>
+
+    <rect x="600" y="230" width="180" height="66" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+    <text x="690" y="258" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">Worker 4</text>
+    <text x="690" y="279" text-anchor="middle" font-size="12" fill="#3b82f6">pid, own event loop</text>
+  </g>
+
+  <!-- shared socket -->
+  <rect x="150" y="340" width="520" height="88" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2.5"/>
+  <text x="410" y="370" text-anchor="middle" font-size="15" font-weight="700" fill="#7e22ce">Shared listening socket :3000</text>
+  <text x="410" y="393" text-anchor="middle" font-size="12" fill="#7e22ce">Kernel (or primary) distributes new connections</text>
+  <text x="410" y="413" text-anchor="middle" font-size="12" fill="#7e22ce">round-robin on Linux/macOS by default</text>
+
+  <g stroke="#c4b5fd" stroke-width="2" stroke-dasharray="4 4">
+    <line x1="130" y1="296" x2="230" y2="340"/>
+    <line x1="317" y1="296" x2="350" y2="340"/>
+    <line x1="503" y1="296" x2="470" y2="340"/>
+    <line x1="690" y1="296" x2="590" y2="340"/>
+  </g>
+</svg>

@@ -1,0 +1,476 @@
+{
+  "course": "Node.js Backend Kit",
+  "start_url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/global-process-env",
+  "count": 67,
+  "lessons": [
+    {
+      "index": 1,
+      "title": "The Global Object, process, and Environment",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/global-process-env",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\04-the-global-object-process-and-environment.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/running-node-repl"
+    },
+    {
+      "index": 2,
+      "title": "Running Node: Scripts, the REPL, the CLI, and nvm",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/running-node-repl",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\05-running-node-scripts-the-repl-the-cli-and-nvm.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/event-loop-phases"
+    },
+    {
+      "index": 3,
+      "title": "The Event Loop Phases",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/event-loop-phases",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\06-the-event-loop-phases.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/libuv-thread-pool"
+    },
+    {
+      "index": 4,
+      "title": "libuv & the Thread Pool",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/libuv-thread-pool",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\07-libuv-the-thread-pool.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/nexttick-vs-setimmediate"
+    },
+    {
+      "index": 5,
+      "title": "process.nextTick vs setImmediate",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/nexttick-vs-setimmediate",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\08-processnexttick-vs-setimmediate.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/microtasks-vs-macrotasks"
+    },
+    {
+      "index": 6,
+      "title": "Microtasks vs Macrotasks",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/microtasks-vs-macrotasks",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\09-microtasks-vs-macrotasks.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/blocking-event-loop"
+    },
+    {
+      "index": 7,
+      "title": "Blocking the Event Loop",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/blocking-event-loop",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\10-blocking-the-event-loop.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/commonjs-modules"
+    },
+    {
+      "index": 8,
+      "title": "CommonJS Modules",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/commonjs-modules",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\11-commonjs-modules.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/es-modules"
+    },
+    {
+      "index": 9,
+      "title": "ES Modules",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/es-modules",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\12-es-modules.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/module-resolution"
+    },
+    {
+      "index": 10,
+      "title": "Module Resolution",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/module-resolution",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\13-module-resolution.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/package-json-semver"
+    },
+    {
+      "index": 11,
+      "title": "package.json & Semantic Versioning",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/package-json-semver",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\14-packagejson-semantic-versioning.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/npm-and-scripts"
+    },
+    {
+      "index": 12,
+      "title": "npm & Scripts",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/npm-and-scripts",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\15-npm-scripts.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/callbacks"
+    },
+    {
+      "index": 13,
+      "title": "Callbacks",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/callbacks",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\16-callbacks.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/promises"
+    },
+    {
+      "index": 14,
+      "title": "Promises",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/promises",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\17-promises.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/async-await"
+    },
+    {
+      "index": 15,
+      "title": "Async / Await",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/async-await",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\18-async-await.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/error-handling-async"
+    },
+    {
+      "index": 16,
+      "title": "Error Handling in Async Code",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/error-handling-async",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\19-error-handling-in-async-code.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/eventemitter"
+    },
+    {
+      "index": 17,
+      "title": "EventEmitter",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/eventemitter",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\20-eventemitter.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/fs-module"
+    },
+    {
+      "index": 18,
+      "title": "The fs Module: Reading & Writing Files",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/fs-module",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\21-the-fs-module-reading-writing-files.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/path-os-url"
+    },
+    {
+      "index": 19,
+      "title": "path, os & URL: Portable Filesystem and Environment Info",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/path-os-url",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\22-path-os-url-portable-filesystem-and-environment-info.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/buffer"
+    },
+    {
+      "index": 20,
+      "title": "Buffer: Working with Binary Data",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/buffer",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\23-buffer-working-with-binary-data.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/crypto"
+    },
+    {
+      "index": 21,
+      "title": "crypto: Hashing, HMAC, Random & Encryption",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/crypto",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\24-crypto-hashing-hmac-random-encryption.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/timers"
+    },
+    {
+      "index": 22,
+      "title": "Timers: setTimeout, setInterval, setImmediate & the Event Loop",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/timers",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\25-timers-settimeout-setinterval-setimmediate-the-event-loop.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/streams-overview"
+    },
+    {
+      "index": 23,
+      "title": "Streams Overview",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/streams-overview",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\26-streams-overview.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/readable-writable"
+    },
+    {
+      "index": 24,
+      "title": "Readable & Writable Streams",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/readable-writable",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\27-readable-writable-streams.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/transform-duplex"
+    },
+    {
+      "index": 25,
+      "title": "Transform & Duplex Streams",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/transform-duplex",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\28-transform-duplex-streams.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/backpressure-piping"
+    },
+    {
+      "index": 26,
+      "title": "Backpressure, pipe & pipeline",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/backpressure-piping",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\29-backpressure-pipe-pipeline.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/http-module"
+    },
+    {
+      "index": 27,
+      "title": "The http module & createServer",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/http-module",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\30-the-http-module-createserver.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/request-response"
+    },
+    {
+      "index": 28,
+      "title": "Parsing requests & writing responses",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/request-response",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\31-parsing-requests-writing-responses.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/routing-basics"
+    },
+    {
+      "index": 29,
+      "title": "Manual routing & serving JSON",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/routing-basics",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\32-manual-routing-serving-json.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/http-vs-https-tls"
+    },
+    {
+      "index": 30,
+      "title": "HTTP vs HTTPS, TLS, HTTP/2 & CORS",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/http-vs-https-tls",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\33-http-vs-https-tls-http2-cors.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/express-basics"
+    },
+    {
+      "index": 31,
+      "title": "Express basics: what it is and why a framework",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/express-basics",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\34-express-basics-what-it-is-and-why-a-framework.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/express-routing"
+    },
+    {
+      "index": 32,
+      "title": "Routing: params, query, and Routers",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/express-routing",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\35-routing-params-query-and-routers.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/middleware"
+    },
+    {
+      "index": 33,
+      "title": "Middleware: the pipeline, next(), and order",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/middleware",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\36-middleware-the-pipeline-next-and-order.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/express-error-handling"
+    },
+    {
+      "index": 34,
+      "title": "Error handling: the 4-arg handler and async errors",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/express-error-handling",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\37-error-handling-the-4-arg-handler-and-async-errors.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/req-res"
+    },
+    {
+      "index": 35,
+      "title": "The req and res objects: reading and responding",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/req-res",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\38-the-req-and-res-objects-reading-and-responding.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/rest-principles"
+    },
+    {
+      "index": 36,
+      "title": "REST Principles: Constraints, Resources & Statelessness",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/rest-principles",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\39-rest-principles-constraints-resources-statelessness.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/crud-status-codes"
+    },
+    {
+      "index": 37,
+      "title": "CRUD, HTTP Verbs, Status Codes & Idempotency",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/crud-status-codes",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\40-crud-http-verbs-status-codes-idempotency.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/validation-pagination"
+    },
+    {
+      "index": 38,
+      "title": "Validation, Pagination, Filtering & Sorting",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/validation-pagination",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\41-validation-pagination-filtering-sorting.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/api-versioning"
+    },
+    {
+      "index": 39,
+      "title": "API Versioning, Error Shape, Rate Limiting & Docs",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/api-versioning",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\42-api-versioning-error-shape-rate-limiting-docs.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/mongodb-mongoose"
+    },
+    {
+      "index": 40,
+      "title": "MongoDB &amp; Mongoose",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/mongodb-mongoose",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\43-mongodb-amp-mongoose.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/schema-design"
+    },
+    {
+      "index": 41,
+      "title": "Schema Design &amp; Data Modeling",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/schema-design",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\44-schema-design-amp-data-modeling.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/sql-basics"
+    },
+    {
+      "index": 42,
+      "title": "SQL Basics from Node",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/sql-basics",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\45-sql-basics-from-node.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/connection-pooling"
+    },
+    {
+      "index": 43,
+      "title": "Connection Pooling",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/connection-pooling",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\46-connection-pooling.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/transactions"
+    },
+    {
+      "index": 44,
+      "title": "Transactions &amp; ACID",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/transactions",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\47-transactions-amp-acid.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/authentication-basics"
+    },
+    {
+      "index": 45,
+      "title": "Authentication Basics",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/authentication-basics",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\48-authentication-basics.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/jwt"
+    },
+    {
+      "index": 46,
+      "title": "JSON Web Tokens (JWT)",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/jwt",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\49-json-web-tokens-jwt.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/sessions-cookies"
+    },
+    {
+      "index": 47,
+      "title": "Sessions & Cookies",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/sessions-cookies",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\50-sessions-cookies.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/password-hashing"
+    },
+    {
+      "index": 48,
+      "title": "Password Hashing",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/password-hashing",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\51-password-hashing.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/web-security-owasp"
+    },
+    {
+      "index": 49,
+      "title": "Web Security & OWASP",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/web-security-owasp",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\52-web-security-owasp.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/error-handling-patterns"
+    },
+    {
+      "index": 50,
+      "title": "Error Handling Patterns",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/error-handling-patterns",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\53-error-handling-patterns.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/uncaught-unhandled"
+    },
+    {
+      "index": 51,
+      "title": "Uncaught Exceptions & Unhandled Rejections",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/uncaught-unhandled",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\54-uncaught-exceptions-unhandled-rejections.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/debugging-nodejs"
+    },
+    {
+      "index": 52,
+      "title": "Debugging Node.js",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/debugging-nodejs",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\55-debugging-nodejs.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/logging"
+    },
+    {
+      "index": 53,
+      "title": "Logging",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/logging",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\56-logging.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/testing-fundamentals"
+    },
+    {
+      "index": 54,
+      "title": "Testing Fundamentals",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/testing-fundamentals",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\57-testing-fundamentals.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/unit-testing"
+    },
+    {
+      "index": 55,
+      "title": "Unit Testing",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/unit-testing",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\58-unit-testing.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/integration-testing"
+    },
+    {
+      "index": 56,
+      "title": "Integration Testing",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/integration-testing",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\59-integration-testing.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/mocking-coverage"
+    },
+    {
+      "index": 57,
+      "title": "Mocking &amp; Coverage",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/mocking-coverage",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\60-mocking-amp-coverage.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/cluster-module"
+    },
+    {
+      "index": 58,
+      "title": "The cluster module",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/cluster-module",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\61-the-cluster-module.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/worker-threads"
+    },
+    {
+      "index": 59,
+      "title": "Worker threads",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/worker-threads",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\62-worker-threads.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/child-processes"
+    },
+    {
+      "index": 60,
+      "title": "Child processes",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/child-processes",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\63-child-processes.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/caching-redis"
+    },
+    {
+      "index": 61,
+      "title": "Caching with Redis",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/caching-redis",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\64-caching-with-redis.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/pm2-docker"
+    },
+    {
+      "index": 62,
+      "title": "PM2 & Docker",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/pm2-docker",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\65-pm2-docker.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/graceful-shutdown"
+    },
+    {
+      "index": 63,
+      "title": "Graceful shutdown & monitoring",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/graceful-shutdown",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\66-graceful-shutdown-monitoring.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/websockets"
+    },
+    {
+      "index": 64,
+      "title": "Real-time with WebSockets",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/websockets",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\67-real-time-with-websockets.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/graphql-basics"
+    },
+    {
+      "index": 65,
+      "title": "GraphQL basics",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/graphql-basics",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\68-graphql-basics.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/microservices"
+    },
+    {
+      "index": 66,
+      "title": "Microservices in Node",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/microservices",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\69-microservices-in-node.md",
+      "next": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/message-queues"
+    },
+    {
+      "index": 67,
+      "title": "Message queues & async jobs",
+      "url": "https://www.geekyfrontend.in/learn/nodejs-backend-kit/message-queues",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Nodejs Backend Kit\\70-message-queues-async-jobs.md",
+      "next": null
+    }
+  ]
+}

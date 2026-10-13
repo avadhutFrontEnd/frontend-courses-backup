@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="10" y="10" width="800" height="340" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="410" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Three ways to run Node.js</text>
+
+  <rect x="45" y="80" width="235" height="230" rx="14" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="162" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Run a file</text>
+  <text x="162" y="140" text-anchor="middle" font-size="13" fill="#334155">node app.js</text>
+  <text x="162" y="170" text-anchor="middle" font-size="12" fill="#64748b">runs a whole</text>
+  <text x="162" y="188" text-anchor="middle" font-size="12" fill="#64748b">script top to bottom</text>
+  <text x="162" y="216" text-anchor="middle" font-size="12" fill="#64748b">the everyday way</text>
+  <text x="162" y="234" text-anchor="middle" font-size="12" fill="#64748b">to run apps</text>
+
+  <rect x="292" y="80" width="235" height="230" rx="14" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="410" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">REPL</text>
+  <text x="410" y="140" text-anchor="middle" font-size="13" fill="#334155">node</text>
+  <text x="410" y="170" text-anchor="middle" font-size="12" fill="#64748b">interactive prompt</text>
+  <text x="410" y="188" text-anchor="middle" font-size="12" fill="#64748b">type, press enter,</text>
+  <text x="410" y="206" text-anchor="middle" font-size="12" fill="#64748b">see the result</text>
+  <text x="410" y="234" text-anchor="middle" font-size="12" fill="#64748b">great for testing ideas</text>
+
+  <rect x="539" y="80" width="235" height="230" rx="14" fill="#faf5ff" stroke="#9333ea"/>
+  <text x="656" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Inline eval</text>
+  <text x="656" y="140" text-anchor="middle" font-size="13" fill="#334155">node -e "..."</text>
+  <text x="656" y="170" text-anchor="middle" font-size="12" fill="#64748b">runs one snippet</text>
+  <text x="656" y="188" text-anchor="middle" font-size="12" fill="#64748b">straight from the</text>
+  <text x="656" y="206" text-anchor="middle" font-size="12" fill="#64748b">command line</text>
+  <text x="656" y="234" text-anchor="middle" font-size="12" fill="#64748b">handy in scripts</text>
+</svg>

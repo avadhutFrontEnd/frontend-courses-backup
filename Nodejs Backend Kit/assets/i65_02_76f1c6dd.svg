@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340">
+  <rect x="10" y="10" width="800" height="320" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="bold" fill="#0f172a">How a GraphQL query is served</text>
+
+  <rect x="30" y="120" width="150" height="90" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="105" y="158" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">Query</text>
+  <text x="105" y="180" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">document string</text>
+
+  <rect x="215" y="120" width="150" height="90" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="290" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#6b21a8">Parse + Validate</text>
+  <text x="290" y="172" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">against the schema</text>
+  <text x="290" y="190" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">types checked</text>
+
+  <rect x="400" y="120" width="150" height="90" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="475" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#166534">Execute</text>
+  <text x="475" y="172" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">walk each field to</text>
+  <text x="475" y="190" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">its resolver fn</text>
+
+  <rect x="585" y="120" width="150" height="90" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="660" y="150" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">Response</text>
+  <text x="660" y="172" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">JSON mirroring</text>
+  <text x="660" y="190" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">the query shape</text>
+
+  <line x1="180" y1="165" x2="212" y2="165" stroke="#64748b" stroke-width="2" marker-end="url(#g15)"/>
+  <line x1="365" y1="165" x2="397" y2="165" stroke="#64748b" stroke-width="2" marker-end="url(#g15)"/>
+  <line x1="550" y1="165" x2="582" y2="165" stroke="#64748b" stroke-width="2" marker-end="url(#g15)"/>
+
+  <text x="410" y="258" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Each resolver receives (parent, args, context, info) and returns a value or a Promise.</text>
+  <text x="410" y="284" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Nested fields resolve top-down; use DataLoader to batch DB calls and kill N+1.</text>
+
+  <defs>
+    <marker id="g15" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/></marker>
+  </defs>
+</svg>

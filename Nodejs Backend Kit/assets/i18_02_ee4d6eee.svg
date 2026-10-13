@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="320" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Why sync I/O hurts a server</text>
+
+  <text x="120" y="95" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">readFileSync</text>
+  <rect x="40" y="110" width="740" height="46" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <rect x="300" y="118" width="220" height="30" rx="6" fill="#9333ea"/>
+  <text x="410" y="139" text-anchor="middle" font-size="13" fill="#ffffff">disk read: everyone waits</text>
+  <text x="90" y="139" text-anchor="middle" font-size="12" fill="#64748b">req A</text>
+  <text x="700" y="139" text-anchor="middle" font-size="12" fill="#64748b">req B stalls</text>
+
+  <text x="120" y="205" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">await readFile</text>
+  <rect x="40" y="220" width="740" height="46" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <rect x="150" y="228" width="120" height="30" rx="6" fill="#16a34a"/>
+  <text x="210" y="249" text-anchor="middle" font-size="12" fill="#ffffff">req A queued</text>
+  <rect x="290" y="228" width="120" height="30" rx="6" fill="#3b82f6"/>
+  <text x="350" y="249" text-anchor="middle" font-size="12" fill="#ffffff">req B served</text>
+  <rect x="430" y="228" width="140" height="30" rx="6" fill="#16a34a"/>
+  <text x="500" y="249" text-anchor="middle" font-size="12" fill="#ffffff">A resumes</text>
+
+  <text x="410" y="298" text-anchor="middle" font-size="13" fill="#64748b">Async keeps the single thread serving other requests while the disk works</text>
+</svg>

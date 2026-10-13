@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Offset vs cursor pagination</text>
+
+  <rect x="40" y="80" width="350" height="240" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="215" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">Offset / limit</text>
+  <text x="215" y="142" text-anchor="middle" font-size="13" fill="#334155">?page=3&amp;limit=20</text>
+  <text x="215" y="170" text-anchor="middle" font-size="13" fill="#334155">SQL OFFSET 40</text>
+  <rect x="70" y="192" width="290" height="44" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="215" y="220" text-anchor="middle" font-size="12" fill="#334155">simple &#183; jump to any page</text>
+  <rect x="70" y="248" width="290" height="52" rx="8" fill="#ffffff" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="215" y="270" text-anchor="middle" font-size="12" fill="#dc2626">slow at deep offsets</text>
+  <text x="215" y="290" text-anchor="middle" font-size="12" fill="#dc2626">skips/repeats on insert</text>
+
+  <rect x="430" y="80" width="350" height="240" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="605" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">Cursor / keyset</text>
+  <text x="605" y="142" text-anchor="middle" font-size="13" fill="#334155">?after=eyJpZCI6MTAw</text>
+  <text x="605" y="170" text-anchor="middle" font-size="13" fill="#334155">WHERE id &gt; cursor</text>
+  <rect x="460" y="192" width="290" height="44" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="605" y="220" text-anchor="middle" font-size="12" fill="#334155">fast &#183; index seek, stable</text>
+  <rect x="460" y="248" width="290" height="52" rx="8" fill="#ffffff" stroke="#64748b" stroke-width="1.5"/>
+  <text x="605" y="270" text-anchor="middle" font-size="12" fill="#334155">no random page jumps</text>
+  <text x="605" y="290" text-anchor="middle" font-size="12" fill="#334155">needs stable sort key</text>
+
+  <text x="410" y="344" text-anchor="middle" font-size="13" fill="#64748b">Offset for small admin tables; cursor for large or real-time feeds</text>
+</svg>

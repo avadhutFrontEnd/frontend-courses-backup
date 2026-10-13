@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="440" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Log levels: severity from trace to fatal</text>
+
+  <rect x="250" y="72" width="320" height="46" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="410" y="101" text-anchor="middle" font-size="14" font-weight="bold" fill="#dc2626">fatal &#183; process is going down</text>
+
+  <rect x="220" y="128" width="380" height="46" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="410" y="157" text-anchor="middle" font-size="14" font-weight="bold" fill="#dc2626">error &#183; a request/op failed, needs attention</text>
+
+  <rect x="190" y="184" width="440" height="46" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="213" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">warn &#183; recoverable, suspicious, degraded</text>
+
+  <rect x="160" y="240" width="500" height="46" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="269" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">info &#183; normal milestones (default in prod)</text>
+
+  <rect x="130" y="296" width="560" height="46" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="325" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">debug &#183; developer detail, off in prod</text>
+
+  <rect x="100" y="352" width="620" height="46" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="381" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">trace &#183; the noisiest firehose, rarely on</text>
+
+  <text x="60" y="230" text-anchor="middle" font-size="12" fill="#64748b" transform="rotate(-90 60 230)">more severe &#8593;</text>
+  <text x="770" y="230" text-anchor="middle" font-size="12" fill="#64748b" transform="rotate(90 770 230)">more verbose &#8595;</text>
+</svg>

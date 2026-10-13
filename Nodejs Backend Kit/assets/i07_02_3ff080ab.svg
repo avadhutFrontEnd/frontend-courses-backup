@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="338" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">Measuring Event Loop Lag</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">Lag = how late a timer fires vs when it was due. Rising lag means the loop is falling behind.</text>
+
+  <!-- scheduled marker -->
+  <line x1="120" y1="110" x2="120" y2="250" stroke="#16a34a" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="120" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">due at t</text>
+
+  <!-- actual marker -->
+  <line x1="560" y1="110" x2="560" y2="250" stroke="#ea580c" stroke-width="2.5" stroke-dasharray="6 4"/>
+  <text x="560" y="100" text-anchor="middle" font-size="12" font-weight="700" fill="#c2410c">actually ran</text>
+
+  <!-- lag bar -->
+  <rect x="120" y="150" width="440" height="44" rx="9" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="340" y="177" text-anchor="middle" font-size="14" font-weight="700" fill="#c2410c">LAG = actual − due (loop was busy)</text>
+
+  <!-- timeline axis -->
+  <line x1="60" y1="250" x2="760" y2="250" stroke="#334155" stroke-width="2" marker-end="url(#ah5)"/>
+  <text x="740" y="272" text-anchor="middle" font-size="12" fill="#64748b">time</text>
+  <defs>
+    <marker id="ah5" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+
+  <rect x="60" y="286" width="700" height="42" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="312" text-anchor="middle" font-size="12.5" fill="#1d4ed8">perf_hooks.monitorEventLoopDelay() gives a precise p50/p99 histogram — watch the tail, not the mean.</text>
+</svg>

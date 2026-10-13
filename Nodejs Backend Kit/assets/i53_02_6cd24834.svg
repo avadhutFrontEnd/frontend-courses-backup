@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">A correlation id threads one request</text>
+
+  <rect x="30" y="90" width="150" height="80" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="105" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">Client</text>
+  <text x="105" y="146" text-anchor="middle" font-size="11" fill="#334155">sends request</text>
+
+  <rect x="220" y="90" width="150" height="80" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="295" y="118" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">API gateway</text>
+  <text x="295" y="142" text-anchor="middle" font-size="11" fill="#334155">mints id if none:</text>
+  <text x="295" y="160" text-anchor="middle" font-size="11" fill="#334155">x-request-id</text>
+
+  <rect x="410" y="90" width="150" height="80" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="485" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">Auth service</text>
+  <text x="485" y="146" text-anchor="middle" font-size="11" fill="#334155">logs same id</text>
+
+  <rect x="600" y="90" width="150" height="80" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="675" y="122" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">Orders service</text>
+  <text x="675" y="146" text-anchor="middle" font-size="11" fill="#334155">logs same id</text>
+
+  <line x1="180" y1="130" x2="216" y2="130" stroke="#94a3b8" stroke-width="2" marker-end="url(#a12c)"/>
+  <line x1="370" y1="130" x2="406" y2="130" stroke="#94a3b8" stroke-width="2" marker-end="url(#a12c)"/>
+  <line x1="560" y1="130" x2="596" y2="130" stroke="#94a3b8" stroke-width="2" marker-end="url(#a12c)"/>
+
+  <rect x="90" y="220" width="640" height="90" rx="14" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="250" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">Log aggregator: filter by requestId=abc-123</text>
+  <text x="410" y="278" text-anchor="middle" font-size="12" fill="#334155">Every hop's line for one user action lines up in order &#8212; propagate via</text>
+  <text x="410" y="298" text-anchor="middle" font-size="12" fill="#334155">headers + AsyncLocalStorage so you never pass the id by hand.</text>
+
+  <defs>
+    <marker id="a12c" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Three ways to read a file</text>
+
+  <!-- Sync -->
+  <rect x="40" y="80" width="230" height="230" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="155" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#9333ea">readFileSync</text>
+  <rect x="70" y="130" width="170" height="40" rx="8" fill="#ffffff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="155" y="155" text-anchor="middle" font-size="13" fill="#334155">call blocks</text>
+  <rect x="70" y="185" width="170" height="40" rx="8" fill="#ffffff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="155" y="210" text-anchor="middle" font-size="13" fill="#334155">thread frozen</text>
+  <rect x="70" y="240" width="170" height="40" rx="8" fill="#ffffff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="155" y="265" text-anchor="middle" font-size="13" fill="#334155">returns data</text>
+
+  <!-- Callback -->
+  <rect x="295" y="80" width="230" height="230" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">fs.readFile (cb)</text>
+  <rect x="325" y="130" width="170" height="40" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="410" y="155" text-anchor="middle" font-size="13" fill="#334155">offloads to pool</text>
+  <rect x="325" y="185" width="170" height="40" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="410" y="210" text-anchor="middle" font-size="13" fill="#334155">loop stays free</text>
+  <rect x="325" y="240" width="170" height="40" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="410" y="265" text-anchor="middle" font-size="13" fill="#334155">cb(err, data)</text>
+
+  <!-- Promises -->
+  <rect x="550" y="80" width="230" height="230" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="665" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">fs/promises</text>
+  <rect x="580" y="130" width="170" height="40" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="665" y="155" text-anchor="middle" font-size="13" fill="#334155">await readFile</text>
+  <rect x="580" y="185" width="170" height="40" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="665" y="210" text-anchor="middle" font-size="13" fill="#334155">loop stays free</text>
+  <rect x="580" y="240" width="170" height="40" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="665" y="265" text-anchor="middle" font-size="13" fill="#334155">try / catch</text>
+
+  <text x="410" y="338" text-anchor="middle" font-size="13" fill="#64748b">Prefer fs/promises in modern app code &#8212; async without callback nesting</text>
+</svg>

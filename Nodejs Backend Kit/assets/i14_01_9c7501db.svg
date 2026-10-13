@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="10" y="10" width="800" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="45" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Promise states are one-way</text>
+
+  <rect x="310" y="90" width="200" height="80" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="122" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">pending</text>
+  <text x="410" y="146" text-anchor="middle" font-size="12" fill="#64748b">not settled yet</text>
+
+  <rect x="70" y="250" width="280" height="90" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="210" y="284" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">fulfilled</text>
+  <text x="210" y="308" text-anchor="middle" font-size="12" fill="#64748b">resolve(value) — settled</text>
+  <text x="210" y="328" text-anchor="middle" font-size="12" fill="#64748b">.then receives value</text>
+
+  <rect x="470" y="250" width="280" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="610" y="284" text-anchor="middle" font-size="17" font-weight="bold" fill="#0f172a">rejected</text>
+  <text x="610" y="308" text-anchor="middle" font-size="12" fill="#64748b">reject(reason) — settled</text>
+  <text x="610" y="328" text-anchor="middle" font-size="12" fill="#64748b">.catch receives reason</text>
+
+  <line x1="360" y1="170" x2="230" y2="248" stroke="#16a34a" stroke-width="2.5" marker-end="url(#a4)"/>
+  <line x1="460" y1="170" x2="590" y2="248" stroke="#dc2626" stroke-width="2.5" marker-end="url(#a4)"/>
+
+  <text x="290" y="205" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="bold">resolve</text>
+  <text x="540" y="205" text-anchor="middle" font-size="12" fill="#dc2626" font-weight="bold">reject / throw</text>
+
+  <text x="410" y="365" text-anchor="middle" font-size="12" fill="#64748b">Once settled the state and value are frozen forever — no re-settling.</text>
+
+  <defs>
+    <marker id="a4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

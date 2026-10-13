@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="10" y="10" width="800" height="340" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="45" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Error-first callback flow</text>
+
+  <rect x="50" y="90" width="200" height="70" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="150" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Caller</text>
+  <text x="150" y="142" text-anchor="middle" font-size="12" fill="#64748b">fs.readFile(path, cb)</text>
+
+  <rect x="310" y="90" width="200" height="70" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Async op</text>
+  <text x="410" y="142" text-anchor="middle" font-size="12" fill="#64748b">runs off the stack</text>
+
+  <rect x="570" y="90" width="200" height="70" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="670" y="120" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">cb(err, data)</text>
+  <text x="670" y="142" text-anchor="middle" font-size="12" fill="#64748b">invoked later</text>
+
+  <line x1="250" y1="125" x2="308" y2="125" stroke="#334155" stroke-width="2" marker-end="url(#a4)"/>
+  <line x1="510" y1="125" x2="568" y2="125" stroke="#334155" stroke-width="2" marker-end="url(#a4)"/>
+
+  <rect x="230" y="210" width="230" height="90" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="345" y="238" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">if (err) return</text>
+  <text x="345" y="262" text-anchor="middle" font-size="12" fill="#64748b">handle failure first</text>
+  <text x="345" y="284" text-anchor="middle" font-size="12" fill="#64748b">then use data</text>
+
+  <rect x="500" y="210" width="230" height="90" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="615" y="238" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">success path</text>
+  <text x="615" y="262" text-anchor="middle" font-size="12" fill="#64748b">err is null</text>
+  <text x="615" y="284" text-anchor="middle" font-size="12" fill="#64748b">data is ready</text>
+
+  <line x1="640" y1="160" x2="470" y2="208" stroke="#dc2626" stroke-width="2" marker-end="url(#a4)"/>
+  <line x1="700" y1="160" x2="640" y2="208" stroke="#16a34a" stroke-width="2" marker-end="url(#a4)"/>
+
+  <defs>
+    <marker id="a4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

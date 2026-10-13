@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="10" y="10" width="800" height="300" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="410" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">What next() decides</text>
+
+  <rect x="330" y="80" width="160" height="66" rx="12" fill="#faf5ff" stroke="#9333ea"/>
+  <text x="410" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">middleware runs</text>
+  <text x="410" y="132" text-anchor="middle" font-size="12" fill="#64748b">(req, res, next)</text>
+
+  <rect x="40" y="210" width="220" height="80" rx="12" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="150" y="240" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">res.send() / res.json()</text>
+  <text x="150" y="262" text-anchor="middle" font-size="12" fill="#64748b">responds — chain ends here</text>
+  <text x="150" y="281" text-anchor="middle" font-size="12" fill="#64748b">do NOT call next after</text>
+
+  <rect x="300" y="210" width="220" height="80" rx="12" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="410" y="240" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">next()</text>
+  <text x="410" y="262" text-anchor="middle" font-size="12" fill="#64748b">pass to next middleware</text>
+  <text x="410" y="281" text-anchor="middle" font-size="12" fill="#64748b">in registration order</text>
+
+  <rect x="560" y="210" width="220" height="80" rx="12" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="670" y="240" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">next(err)</text>
+  <text x="670" y="262" text-anchor="middle" font-size="12" fill="#64748b">skip to error handler</text>
+  <text x="670" y="281" text-anchor="middle" font-size="12" fill="#64748b">(the 4-arg one)</text>
+
+  <line x1="360" y1="146" x2="180" y2="208" stroke="#94a3b8" stroke-width="2" marker-end="url(#a8f)"/>
+  <line x1="410" y1="146" x2="410" y2="208" stroke="#94a3b8" stroke-width="2" marker-end="url(#a8f)"/>
+  <line x1="460" y1="146" x2="640" y2="208" stroke="#94a3b8" stroke-width="2" marker-end="url(#a8f)"/>
+
+  <defs>
+    <marker id="a8f" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>

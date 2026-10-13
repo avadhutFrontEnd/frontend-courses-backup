@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="420" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Embedding vs referencing</text>
+
+  <rect x="40" y="70" width="350" height="310" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="215" y="100" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">Embed (nest inside)</text>
+  <rect x="70" y="120" width="290" height="180" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="90" y="145" font-size="13" fill="#334155">order {</text>
+  <text x="110" y="168" font-size="13" fill="#64748b">id, total,</text>
+  <text x="110" y="191" font-size="13" fill="#64748b">items: [</text>
+  <text x="130" y="214" font-size="13" fill="#334155">{ sku, qty, price },</text>
+  <text x="130" y="237" font-size="13" fill="#334155">{ sku, qty, price }</text>
+  <text x="110" y="260" font-size="13" fill="#64748b">]</text>
+  <text x="90" y="283" font-size="13" fill="#334155">}</text>
+  <text x="215" y="330" text-anchor="middle" font-size="12" fill="#334155">One read gets everything</text>
+  <text x="215" y="352" text-anchor="middle" font-size="12" fill="#64748b">Best: owned, read together, bounded</text>
+
+  <rect x="430" y="70" width="350" height="310" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="605" y="100" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">Reference (link by id)</text>
+  <rect x="455" y="120" width="140" height="90" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="525" y="150" text-anchor="middle" font-size="13" fill="#334155">order {</text>
+  <text x="525" y="172" text-anchor="middle" font-size="12" fill="#64748b">userId,</text>
+  <text x="525" y="192" text-anchor="middle" font-size="12" fill="#64748b">total }</text>
+  <rect x="640" y="120" width="115" height="90" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="697" y="150" text-anchor="middle" font-size="13" fill="#334155">user {</text>
+  <text x="697" y="172" text-anchor="middle" font-size="12" fill="#64748b">_id,</text>
+  <text x="697" y="192" text-anchor="middle" font-size="12" fill="#64748b">name }</text>
+  <line x1="595" y1="165" x2="640" y2="165" stroke="#3b82f6" stroke-width="2" marker-end="url(#b10)"/>
+  <text x="605" y="255" text-anchor="middle" font-size="12" fill="#334155">Two collections, joined at read time</text>
+  <text x="605" y="285" text-anchor="middle" font-size="12" fill="#64748b">Best: shared, unbounded, updated alone</text>
+  <text x="605" y="330" text-anchor="middle" font-size="12" fill="#334155">Needs populate / $lookup</text>
+
+  <defs>
+    <marker id="b10" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#3b82f6"/>
+    </marker>
+  </defs>
+  <text x="410" y="406" text-anchor="middle" font-size="13" fill="#64748b">Model around access patterns, not around entities</text>
+</svg>

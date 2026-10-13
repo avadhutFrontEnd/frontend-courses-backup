@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420">
+  <rect x="10" y="10" width="800" height="400" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="bold" fill="#0f172a">Common web risks in a Node app</text>
+
+  <rect x="40" y="75" width="230" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="155" y="102" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#991b1b">Injection</text>
+  <text x="155" y="126" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">SQL / NoSQL / command</text>
+  <text x="155" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#166534">Fix: parameterize, validate</text>
+
+  <rect x="295" y="75" width="230" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="410" y="102" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#991b1b">XSS</text>
+  <text x="410" y="126" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">injected script in browser</text>
+  <text x="410" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#166534">Fix: escape output, CSP</text>
+
+  <rect x="550" y="75" width="230" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="665" y="102" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#991b1b">CSRF</text>
+  <text x="665" y="126" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">forged cross-site request</text>
+  <text x="665" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#166534">Fix: SameSite, CSRF token</text>
+
+  <rect x="40" y="185" width="230" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="155" y="212" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#991b1b">Broken access control</text>
+  <text x="155" y="236" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">IDOR, missing authz check</text>
+  <text x="155" y="256" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#166534">Fix: enforce per resource</text>
+
+  <rect x="295" y="185" width="230" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="410" y="212" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#991b1b">Secrets exposure</text>
+  <text x="410" y="236" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">keys in git / logs / bundle</text>
+  <text x="410" y="256" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#166534">Fix: env / vault, rotate</text>
+
+  <rect x="550" y="185" width="230" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="665" y="212" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#991b1b">Vulnerable deps</text>
+  <text x="665" y="236" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">known CVEs in npm tree</text>
+  <text x="665" y="256" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#166534">Fix: audit, update, pin</text>
+
+  <rect x="120" y="300" width="580" height="80" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="328" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#166534">Layered defense</text>
+  <text x="410" y="352" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">helmet headers + input validation + parameterized queries</text>
+  <text x="410" y="370" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#334155">+ rate limiting + least privilege + dependency scanning</text>
+</svg>

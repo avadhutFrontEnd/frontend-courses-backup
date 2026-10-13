@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="340" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">The five status-code families</text>
+
+  <rect x="40" y="80" width="145" height="210" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="112" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b82f6">1xx</text>
+  <text x="112" y="140" text-anchor="middle" font-size="13" fill="#334155">Info</text>
+  <text x="112" y="172" text-anchor="middle" font-size="12" fill="#64748b">100 Continue</text>
+  <text x="112" y="196" text-anchor="middle" font-size="12" fill="#64748b">rarely used</text>
+
+  <rect x="197" y="80" width="145" height="210" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="269" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#16a34a">2xx</text>
+  <text x="269" y="140" text-anchor="middle" font-size="13" fill="#334155">Success</text>
+  <text x="269" y="172" text-anchor="middle" font-size="12" fill="#64748b">200 OK</text>
+  <text x="269" y="194" text-anchor="middle" font-size="12" fill="#64748b">201 Created</text>
+  <text x="269" y="216" text-anchor="middle" font-size="12" fill="#64748b">204 No Content</text>
+
+  <rect x="354" y="80" width="145" height="210" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="426" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#9333ea">3xx</text>
+  <text x="426" y="140" text-anchor="middle" font-size="13" fill="#334155">Redirect</text>
+  <text x="426" y="172" text-anchor="middle" font-size="12" fill="#64748b">301 Moved</text>
+  <text x="426" y="194" text-anchor="middle" font-size="12" fill="#64748b">304 Not Mod.</text>
+
+  <rect x="511" y="80" width="145" height="210" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="583" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b82f6">4xx</text>
+  <text x="583" y="140" text-anchor="middle" font-size="13" fill="#334155">Client error</text>
+  <text x="583" y="172" text-anchor="middle" font-size="12" fill="#64748b">400 Bad Req</text>
+  <text x="583" y="194" text-anchor="middle" font-size="12" fill="#64748b">401 / 403</text>
+  <text x="583" y="216" text-anchor="middle" font-size="12" fill="#64748b">404 / 409 / 422</text>
+
+  <rect x="668" y="80" width="112" height="210" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="724" y="112" text-anchor="middle" font-size="17" font-weight="bold" fill="#9333ea">5xx</text>
+  <text x="724" y="140" text-anchor="middle" font-size="13" fill="#334155">Server</text>
+  <text x="724" y="172" text-anchor="middle" font-size="12" fill="#64748b">500 Error</text>
+  <text x="724" y="194" text-anchor="middle" font-size="12" fill="#64748b">503 Down</text>
+
+  <text x="410" y="322" text-anchor="middle" font-size="13" fill="#64748b">4xx = caller must change the request; 5xx = server failed a valid request</text>
+</svg>

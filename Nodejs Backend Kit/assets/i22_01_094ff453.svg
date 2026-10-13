@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="420" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Where timers fire in the event loop</text>
+
+  <rect x="290" y="70" width="240" height="46" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="92" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">timers phase</text>
+  <text x="410" y="109" text-anchor="middle" font-size="12" fill="#64748b">setTimeout / setInterval</text>
+
+  <rect x="290" y="140" width="240" height="46" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="162" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">poll phase</text>
+  <text x="410" y="179" text-anchor="middle" font-size="12" fill="#64748b">I/O callbacks (fs, net)</text>
+
+  <rect x="290" y="210" width="240" height="46" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="232" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">check phase</text>
+  <text x="410" y="249" text-anchor="middle" font-size="12" fill="#64748b">setImmediate</text>
+
+  <path d="M 530 93 C 640 93 640 233 530 233" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <path d="M 290 233 C 180 233 180 93 290 93" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <polygon points="290,93 302,87 302,99" fill="#94a3b8"/>
+
+  <rect x="120" y="290" width="580" height="56" rx="10" fill="#fff7ed" stroke="#f59e0b" stroke-width="2"/>
+  <text x="410" y="315" text-anchor="middle" font-size="14" font-weight="bold" fill="#b45309">Between every phase</text>
+  <text x="410" y="335" text-anchor="middle" font-size="13" fill="#334155">process.nextTick queue, then Promise microtasks, drain first</text>
+
+  <text x="410" y="385" text-anchor="middle" font-size="13" fill="#64748b">setTimeout(fn, 0) is a minimum delay, not exact &#8212; microtasks always jump ahead</text>
+</svg>

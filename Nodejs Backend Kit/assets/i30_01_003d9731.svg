@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420">
+  <rect x="10" y="10" width="800" height="400" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="bold" fill="#0f172a">The TLS handshake (simplified)</text>
+
+  <rect x="60" y="80" width="160" height="54" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="140" y="113" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1e3a8a">Client</text>
+  <rect x="600" y="80" width="160" height="54" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="680" y="113" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="bold" fill="#166534">Server</text>
+
+  <line x1="140" y1="134" x2="140" y2="380" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="680" y1="134" x2="680" y2="380" stroke="#cbd5e1" stroke-width="2"/>
+
+  <line x1="140" y1="165" x2="676" y2="165" stroke="#3b82f6" stroke-width="2" marker-end="url(#t7b)"/>
+  <text x="410" y="158" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">1. ClientHello — TLS versions + ciphers</text>
+
+  <line x1="680" y1="205" x2="144" y2="205" stroke="#16a34a" stroke-width="2" marker-end="url(#t7g)"/>
+  <text x="410" y="198" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">2. ServerHello + certificate (public key)</text>
+
+  <line x1="140" y1="245" x2="676" y2="245" stroke="#3b82f6" stroke-width="2" marker-end="url(#t7b)"/>
+  <text x="410" y="238" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">3. verify cert, agree key (ECDHE)</text>
+
+  <line x1="680" y1="285" x2="144" y2="285" stroke="#16a34a" stroke-width="2" marker-end="url(#t7g)"/>
+  <text x="410" y="278" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">4. Finished — both sides confirm</text>
+
+  <rect x="150" y="315" width="520" height="46" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="343" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#6b21a8">5. Encrypted HTTP flows over the shared session key</text>
+
+  <text x="410" y="390" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">Asymmetric keys only bootstrap trust; the bulk data uses a fast symmetric key</text>
+
+  <defs>
+    <marker id="t7b" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#3b82f6"/></marker>
+    <marker id="t7g" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#16a34a"/></marker>
+  </defs>
+</svg>

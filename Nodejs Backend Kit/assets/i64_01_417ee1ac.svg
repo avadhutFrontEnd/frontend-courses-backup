@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 470">
+  <rect x="10" y="10" width="800" height="450" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="bold" fill="#0f172a">Real-time delivery: Polling vs SSE vs WebSocket</text>
+
+  <rect x="40" y="70" width="240" height="360" rx="16" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="160" y="100" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e40af">HTTP Polling</text>
+  <text x="160" y="126" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Client asks on a timer</text>
+  <text x="160" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">GET /messages every 3s</text>
+  <text x="160" y="180" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Direction: client to server</text>
+  <text x="160" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">New TCP + headers each time</text>
+  <text x="160" y="234" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Latency = poll interval</text>
+  <text x="160" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#1e40af">Wasteful, simple, cacheable</text>
+  <text x="160" y="360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Use: low-frequency</text>
+  <text x="160" y="380" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">updates, legacy proxies</text>
+
+  <rect x="290" y="70" width="240" height="360" rx="16" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="100" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#6b21a8">SSE (EventSource)</text>
+  <text x="410" y="126" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">One long-lived HTTP stream</text>
+  <text x="410" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">text/event-stream</text>
+  <text x="410" y="180" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Direction: server to client</text>
+  <text x="410" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Auto-reconnect built in</text>
+  <text x="410" y="234" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Latency: near real-time</text>
+  <text x="410" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#6b21a8">One-way push, HTTP-native</text>
+  <text x="410" y="360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Use: feeds, notifications,</text>
+  <text x="410" y="380" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">token streaming</text>
+
+  <rect x="540" y="70" width="240" height="360" rx="16" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="660" y="100" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#166534">WebSocket</text>
+  <text x="660" y="126" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">One TCP, upgraded once</text>
+  <text x="660" y="146" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">ws:// or wss://</text>
+  <text x="660" y="180" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Direction: full duplex</text>
+  <text x="660" y="200" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Both sides send anytime</text>
+  <text x="660" y="234" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Latency: lowest, framed</text>
+  <text x="660" y="270" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">Two-way, stateful, no headers</text>
+  <text x="660" y="360" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">Use: chat, games, trading,</text>
+  <text x="660" y="380" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#64748b">collaborative editing</text>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="10" y="10" width="800" height="340" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="45" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Sequential vs parallel await</text>
+
+  <text x="60" y="90" font-size="15" font-weight="bold" fill="#dc2626">Sequential — await in a row (300ms)</text>
+  <rect x="60" y="105" width="220" height="40" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="170" y="130" text-anchor="middle" font-size="13" fill="#0f172a">A (100ms)</text>
+  <rect x="290" y="105" width="220" height="40" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="400" y="130" text-anchor="middle" font-size="13" fill="#0f172a">B (100ms)</text>
+  <rect x="520" y="105" width="220" height="40" rx="8" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="630" y="130" text-anchor="middle" font-size="13" fill="#0f172a">C (100ms)</text>
+  <text x="60" y="172" font-size="12" fill="#64748b">Each await waits for the previous — total time is the sum.</text>
+
+  <text x="60" y="230" font-size="15" font-weight="bold" fill="#16a34a">Parallel — Promise.all (100ms)</text>
+  <rect x="60" y="245" width="220" height="40" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="170" y="270" text-anchor="middle" font-size="13" fill="#0f172a">A (100ms)</text>
+  <rect x="60" y="290" width="220" height="40" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="170" y="315" text-anchor="middle" font-size="13" fill="#0f172a">B (100ms)</text>
+  <rect x="60" y="245" width="220" height="85" rx="8" fill="none" stroke="none"/>
+  <rect x="290" y="245" width="220" height="40" rx="8" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="400" y="270" text-anchor="middle" font-size="13" fill="#0f172a">C (100ms)</text>
+  <text x="60" y="348" font-size="12" fill="#64748b">Start all first, then await together — total time is the slowest one.</text>
+</svg>

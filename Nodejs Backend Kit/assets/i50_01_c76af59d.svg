@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="420" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Anatomy of an Error object</text>
+
+  <rect x="260" y="72" width="300" height="60" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="98" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">new Error(message, opts)</text>
+  <text x="410" y="120" text-anchor="middle" font-size="13" fill="#334155">instanceof Error === true</text>
+
+  <rect x="40" y="170" width="230" height="90" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="155" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">.name</text>
+  <text x="155" y="224" text-anchor="middle" font-size="12" fill="#334155">'Error', 'TypeError'</text>
+  <text x="155" y="244" text-anchor="middle" font-size="12" fill="#334155">or your subclass</text>
+
+  <rect x="295" y="170" width="230" height="90" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">.message</text>
+  <text x="410" y="224" text-anchor="middle" font-size="12" fill="#334155">human string</text>
+  <text x="410" y="244" text-anchor="middle" font-size="12" fill="#334155">what went wrong</text>
+
+  <rect x="550" y="170" width="230" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="665" y="200" text-anchor="middle" font-size="15" font-weight="bold" fill="#dc2626">.stack</text>
+  <text x="665" y="224" text-anchor="middle" font-size="12" fill="#334155">call trace string</text>
+  <text x="665" y="244" text-anchor="middle" font-size="12" fill="#334155">captured at throw</text>
+
+  <rect x="150" y="290" width="230" height="90" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="265" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">.cause</text>
+  <text x="265" y="344" text-anchor="middle" font-size="12" fill="#334155">wrapped original</text>
+  <text x="265" y="364" text-anchor="middle" font-size="12" fill="#334155">error (ES2022)</text>
+
+  <rect x="440" y="290" width="230" height="90" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="555" y="320" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">custom fields</text>
+  <text x="555" y="344" text-anchor="middle" font-size="12" fill="#334155">.code .statusCode</text>
+  <text x="555" y="364" text-anchor="middle" font-size="12" fill="#334155">.isOperational</text>
+
+  <line x1="410" y1="132" x2="410" y2="164" stroke="#94a3b8" stroke-width="2"/>
+</svg>

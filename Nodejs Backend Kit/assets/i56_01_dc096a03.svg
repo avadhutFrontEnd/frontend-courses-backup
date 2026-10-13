@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">How supertest drives your API</text>
+
+  <rect x="40" y="100" width="200" height="120" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="140" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">Test file</text>
+  <text x="140" y="168" text-anchor="middle" font-size="12" fill="#334155">request(app)</text>
+  <text x="140" y="190" text-anchor="middle" font-size="12" fill="#334155">.post('/users')</text>
+
+  <rect x="310" y="100" width="200" height="120" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="132" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">Ephemeral server</text>
+  <text x="410" y="160" text-anchor="middle" font-size="12" fill="#334155">supertest binds</text>
+  <text x="410" y="180" text-anchor="middle" font-size="12" fill="#334155">app to a random</text>
+  <text x="410" y="200" text-anchor="middle" font-size="12" fill="#334155">free port</text>
+
+  <rect x="580" y="100" width="200" height="120" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="680" y="140" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">Your app</text>
+  <text x="680" y="168" text-anchor="middle" font-size="12" fill="#334155">real routes,</text>
+  <text x="680" y="190" text-anchor="middle" font-size="12" fill="#334155">middleware, DB</text>
+
+  <path d="M242 145 L308 145" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar13s)"/>
+  <text x="275" y="135" text-anchor="middle" font-size="11" fill="#64748b">real HTTP</text>
+  <path d="M512 145 L578 145" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar13s)"/>
+  <path d="M578 195 L512 195" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar13s)"/>
+  <text x="545" y="215" text-anchor="middle" font-size="11" fill="#64748b">response</text>
+  <path d="M308 195 L242 195" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar13s)"/>
+  <defs>
+    <marker id="ar13s" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <rect x="150" y="270" width="520" height="60" rx="14" fill="#ffffff" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="298" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">.expect(201) then assert on res.body</text>
+  <text x="410" y="320" text-anchor="middle" font-size="12" fill="#334155">no manual listen() &#183; no hardcoded port &#183; full stack exercised</text>
+</svg>

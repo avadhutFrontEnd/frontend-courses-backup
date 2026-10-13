@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="10" y="10" width="800" height="420" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="45" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Four Promise combinators</text>
+
+  <rect x="40" y="80" width="360" height="150" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="220" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Promise.all</text>
+  <text x="220" y="136" text-anchor="middle" font-size="12" fill="#64748b">all fulfil → array of values</text>
+  <text x="220" y="158" text-anchor="middle" font-size="12" fill="#64748b">any reject → rejects immediately</text>
+  <text x="220" y="180" text-anchor="middle" font-size="12" fill="#64748b">fail-fast; others keep running</text>
+  <text x="220" y="208" text-anchor="middle" font-size="12" fill="#16a34a" font-weight="bold">use: need every result</text>
+
+  <rect x="420" y="80" width="360" height="150" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="600" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Promise.allSettled</text>
+  <text x="600" y="136" text-anchor="middle" font-size="12" fill="#64748b">never rejects</text>
+  <text x="600" y="158" text-anchor="middle" font-size="12" fill="#64748b">array of {status, value/reason}</text>
+  <text x="600" y="180" text-anchor="middle" font-size="12" fill="#64748b">waits for all to settle</text>
+  <text x="600" y="208" text-anchor="middle" font-size="12" fill="#3b82f6" font-weight="bold">use: report each outcome</text>
+
+  <rect x="40" y="250" width="360" height="150" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="220" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Promise.race</text>
+  <text x="220" y="306" text-anchor="middle" font-size="12" fill="#64748b">settles as first settles</text>
+  <text x="220" y="328" text-anchor="middle" font-size="12" fill="#64748b">fulfil OR reject — whichever first</text>
+  <text x="220" y="350" text-anchor="middle" font-size="12" fill="#64748b">first error can win</text>
+  <text x="220" y="378" text-anchor="middle" font-size="12" fill="#9333ea" font-weight="bold">use: timeouts</text>
+
+  <rect x="420" y="250" width="360" height="150" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+  <text x="600" y="280" text-anchor="middle" font-size="16" font-weight="bold" fill="#0f172a">Promise.any</text>
+  <text x="600" y="306" text-anchor="middle" font-size="12" fill="#64748b">first fulfilment wins</text>
+  <text x="600" y="328" text-anchor="middle" font-size="12" fill="#64748b">ignores rejections</text>
+  <text x="600" y="350" text-anchor="middle" font-size="12" fill="#64748b">all reject → AggregateError</text>
+  <text x="600" y="378" text-anchor="middle" font-size="12" fill="#ea580c" font-weight="bold">use: first success</text>
+</svg>

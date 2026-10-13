@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340">
+  <rect x="10" y="10" width="800" height="320" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="bold" fill="#0f172a">A message queue decouples producer from work</text>
+
+  <rect x="40" y="120" width="170" height="90" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="125" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e40af">Producer</text>
+  <text x="125" y="174" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">API returns 202 fast</text>
+  <text x="125" y="192" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">enqueue job</text>
+
+  <rect x="300" y="110" width="220" height="110" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="bold" fill="#6b21a8">Broker / Queue</text>
+  <rect x="325" y="155" width="35" height="45" rx="6" fill="#ede9fe" stroke="#9333ea" stroke-width="1.5"/>
+  <rect x="368" y="155" width="35" height="45" rx="6" fill="#ede9fe" stroke="#9333ea" stroke-width="1.5"/>
+  <rect x="411" y="155" width="35" height="45" rx="6" fill="#ede9fe" stroke="#9333ea" stroke-width="1.5"/>
+  <rect x="454" y="155" width="35" height="45" rx="6" fill="#ede9fe" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="410" y="212" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">durable, ordered, buffered</text>
+
+  <rect x="610" y="90" width="170" height="70" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="695" y="120" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#166534">Worker 1</text>
+  <text x="695" y="140" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">ack on success</text>
+
+  <rect x="610" y="180" width="170" height="70" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="695" y="210" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="bold" fill="#166534">Worker 2</text>
+  <text x="695" y="230" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="10" fill="#64748b">retry / DLQ on fail</text>
+
+  <line x1="210" y1="165" x2="297" y2="165" stroke="#64748b" stroke-width="2" marker-end="url(#q15)"/>
+  <line x1="520" y1="150" x2="607" y2="125" stroke="#64748b" stroke-width="2" marker-end="url(#q15)"/>
+  <line x1="520" y1="180" x2="607" y2="210" stroke="#64748b" stroke-width="2" marker-end="url(#q15)"/>
+
+  <text x="410" y="288" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Slow work (email, PDF, video) runs off the request path. Add workers to scale throughput.</text>
+
+  <defs>
+    <marker id="q15" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/></marker>
+  </defs>
+</svg>

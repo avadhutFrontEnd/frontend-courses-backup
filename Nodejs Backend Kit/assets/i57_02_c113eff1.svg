@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="380" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">The four coverage metrics</text>
+
+  <rect x="40" y="80" width="230" height="110" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="155" y="112" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">Statement</text>
+  <text x="155" y="142" text-anchor="middle" font-size="12" fill="#334155">each line ran</text>
+  <text x="155" y="166" text-anchor="middle" font-size="12" fill="#64748b">weakest signal</text>
+
+  <rect x="295" y="80" width="230" height="110" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="112" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">Branch</text>
+  <text x="410" y="142" text-anchor="middle" font-size="12" fill="#334155">both if / else sides</text>
+  <text x="410" y="166" text-anchor="middle" font-size="12" fill="#64748b">the one that matters</text>
+
+  <rect x="550" y="80" width="230" height="110" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="665" y="112" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">Function</text>
+  <text x="665" y="142" text-anchor="middle" font-size="12" fill="#334155">each function called</text>
+  <text x="665" y="166" text-anchor="middle" font-size="12" fill="#64748b">coarse check</text>
+
+  <rect x="295" y="210" width="230" height="110" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="242" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">Line</text>
+  <text x="410" y="272" text-anchor="middle" font-size="12" fill="#334155">source lines executed</text>
+  <text x="410" y="296" text-anchor="middle" font-size="12" fill="#64748b">close to statement</text>
+
+  <text x="410" y="352" text-anchor="middle" font-size="13" fill="#64748b">100% coverage proves lines ran, not that behaviour is correct</text>
+</svg>

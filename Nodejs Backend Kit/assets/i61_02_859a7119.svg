@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="358" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">Write Strategies &amp; the Three Cache Failures</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">How writes reach the store, and the three ways a cache betrays you under load.</text>
+
+  <!-- write-through -->
+  <rect x="30" y="86" width="248" height="120" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.2"/>
+  <text x="154" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#166534">Write-through</text>
+  <text x="154" y="136" text-anchor="middle" font-size="11" fill="#166534">write cache + DB together</text>
+  <text x="154" y="156" text-anchor="middle" font-size="11" fill="#166534">cache always fresh</text>
+  <text x="154" y="176" text-anchor="middle" font-size="11" fill="#166534">slower writes</text>
+  <text x="154" y="196" text-anchor="middle" font-size="11" fill="#166534">writes you rarely read waste RAM</text>
+
+  <!-- write-back -->
+  <rect x="286" y="86" width="248" height="120" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2.2"/>
+  <text x="410" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">Write-back</text>
+  <text x="410" y="136" text-anchor="middle" font-size="11" fill="#1d4ed8">write cache now, DB later</text>
+  <text x="410" y="156" text-anchor="middle" font-size="11" fill="#1d4ed8">fastest writes</text>
+  <text x="410" y="176" text-anchor="middle" font-size="11" fill="#1d4ed8">data loss if cache dies</text>
+  <text x="410" y="196" text-anchor="middle" font-size="11" fill="#1d4ed8">rarely used for durable data</text>
+
+  <!-- write-around -->
+  <rect x="542" y="86" width="248" height="120" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2.2"/>
+  <text x="666" y="112" text-anchor="middle" font-size="14" font-weight="700" fill="#7e22ce">Write-around</text>
+  <text x="666" y="136" text-anchor="middle" font-size="11" fill="#7e22ce">write DB only, skip cache</text>
+  <text x="666" y="156" text-anchor="middle" font-size="11" fill="#7e22ce">cache fills on next read</text>
+  <text x="666" y="176" text-anchor="middle" font-size="11" fill="#7e22ce">good for write-heavy data</text>
+  <text x="666" y="196" text-anchor="middle" font-size="11" fill="#7e22ce">first read after write is a miss</text>
+
+  <!-- failures -->
+  <rect x="30" y="224" width="248" height="118" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2.2"/>
+  <text x="154" y="250" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">Stampede</text>
+  <text x="154" y="274" text-anchor="middle" font-size="11" fill="#b91c1c">hot key expires; 1000s</text>
+  <text x="154" y="292" text-anchor="middle" font-size="11" fill="#b91c1c">of requests hit DB at once</text>
+  <text x="154" y="316" text-anchor="middle" font-size="11" font-weight="700" fill="#b91c1c">fix: lock / early refresh</text>
+
+  <rect x="286" y="224" width="248" height="118" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2.2"/>
+  <text x="410" y="250" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">Penetration</text>
+  <text x="410" y="274" text-anchor="middle" font-size="11" fill="#b91c1c">query for keys that</text>
+  <text x="410" y="292" text-anchor="middle" font-size="11" fill="#b91c1c">never exist bypass cache</text>
+  <text x="410" y="316" text-anchor="middle" font-size="11" font-weight="700" fill="#b91c1c">fix: cache the null</text>
+
+  <rect x="542" y="224" width="248" height="118" rx="12" fill="#fef2f2" stroke="#dc2626" stroke-width="2.2"/>
+  <text x="666" y="250" text-anchor="middle" font-size="14" font-weight="700" fill="#b91c1c">Avalanche</text>
+  <text x="666" y="274" text-anchor="middle" font-size="11" fill="#b91c1c">many keys expire at the</text>
+  <text x="666" y="292" text-anchor="middle" font-size="11" fill="#b91c1c">same instant, DB spikes</text>
+  <text x="666" y="316" text-anchor="middle" font-size="11" font-weight="700" fill="#b91c1c">fix: jitter the TTLs</text>
+</svg>

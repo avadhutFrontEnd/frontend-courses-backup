@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="0" y="0" width="820" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="40" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">require() Caches by Resolved Path</text>
+  <text x="410" y="66" text-anchor="middle" font-size="14" fill="#64748b">A module runs once; later requires reuse the same exports</text>
+
+  <rect x="50" y="95" width="200" height="80" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="150" y="130" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">require('./db')</text>
+  <text x="150" y="152" text-anchor="middle" font-size="12" fill="#64748b">first call</text>
+
+  <rect x="310" y="95" width="200" height="80" rx="12" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="123" text-anchor="middle" font-size="13" font-weight="700" fill="#6b21a8">In cache?</text>
+  <text x="410" y="146" text-anchor="middle" font-size="12" fill="#64748b">require.cache</text>
+  <text x="410" y="164" text-anchor="middle" font-size="12" fill="#64748b">keyed by full path</text>
+
+  <rect x="570" y="95" width="200" height="80" rx="12" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="670" y="123" text-anchor="middle" font-size="13" font-weight="700" fill="#166534">Run file once</text>
+  <text x="670" y="146" text-anchor="middle" font-size="12" fill="#334155">store module.exports</text>
+  <text x="670" y="164" text-anchor="middle" font-size="12" fill="#64748b">in the cache</text>
+
+  <text x="270" y="140" font-size="22" fill="#64748b">&#8594;</text>
+  <text x="530" y="130" font-size="14" font-weight="700" fill="#dc2626">miss &#8594;</text>
+
+  <rect x="310" y="230" width="200" height="80" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="265" text-anchor="middle" font-size="14" font-weight="700" fill="#1e3a8a">require('./db')</text>
+  <text x="410" y="287" text-anchor="middle" font-size="12" fill="#64748b">later call</text>
+
+  <path d="M410 220 L410 175" stroke="#16a34a" stroke-width="2" fill="none" marker-end="url(#a)"/>
+  <text x="425" y="205" font-size="13" font-weight="700" fill="#16a34a">hit &#8594; return cached exports</text>
+
+  <defs>
+    <marker id="a" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+      <path d="M0 0 L6 3 L0 6 Z" fill="#16a34a"/>
+    </marker>
+  </defs>
+</svg>

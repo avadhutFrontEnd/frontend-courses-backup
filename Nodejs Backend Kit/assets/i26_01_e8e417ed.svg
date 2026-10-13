@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+  <rect x="10" y="10" width="800" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="410" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Backpressure: the Slow Sink Pushes Back</text>
+
+  <!-- fast source -->
+  <rect x="40" y="150" width="170" height="80" rx="12" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="125" y="184" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">Fast Readable</text>
+  <text x="125" y="208" text-anchor="middle" font-size="12" fill="#64748b">SSD, 500 MB/s</text>
+
+  <!-- data flow -->
+  <path d="M212 175 H345" stroke="#16a34a" stroke-width="2.5" marker-end="url(#bg)"/>
+  <text x="278" y="165" text-anchor="middle" font-size="12" fill="#16a34a">chunks</text>
+
+  <!-- slow writable -->
+  <rect x="350" y="150" width="180" height="80" rx="12" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="440" y="184" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">Slow Writable</text>
+  <text x="440" y="208" text-anchor="middle" font-size="12" fill="#64748b">network, 5 MB/s</text>
+
+  <!-- backpressure signal -->
+  <path d="M345 250 H215" stroke="#dc2626" stroke-width="2.5" stroke-dasharray="7 4" marker-end="url(#br)"/>
+  <text x="278" y="278" text-anchor="middle" font-size="12" fill="#dc2626">write() → false</text>
+  <text x="278" y="296" text-anchor="middle" font-size="12" fill="#dc2626">pause source</text>
+
+  <!-- drain -->
+  <rect x="560" y="150" width="220" height="80" rx="12" fill="#faf5ff" stroke="#9333ea"/>
+  <text x="670" y="180" text-anchor="middle" font-size="13" fill="#9333ea">buffer empties →</text>
+  <text x="670" y="200" text-anchor="middle" font-size="13" fill="#9333ea">'drain' event →</text>
+  <text x="670" y="220" text-anchor="middle" font-size="13" fill="#9333ea">resume source</text>
+  <path d="M532 190 H555" stroke="#9333ea" stroke-width="2" marker-end="url(#bp)"/>
+
+  <text x="410" y="335" text-anchor="middle" font-size="13" fill="#334155">pipe / pipeline wire this loop automatically — memory stays bounded to the highWaterMark</text>
+
+  <defs>
+    <marker id="bg" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#16a34a"/></marker>
+    <marker id="br" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#dc2626"/></marker>
+    <marker id="bp" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#9333ea"/></marker>
+  </defs>
+</svg>

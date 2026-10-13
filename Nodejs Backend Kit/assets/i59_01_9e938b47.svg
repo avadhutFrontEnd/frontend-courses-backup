@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="418" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">worker_threads vs cluster</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">Threads share one process &amp; memory; cluster forks separate processes.</text>
+
+  <!-- worker_threads -->
+  <rect x="36" y="90" width="360" height="300" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2.5"/>
+  <text x="216" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#7e22ce">worker_threads</text>
+  <text x="216" y="142" text-anchor="middle" font-size="12" fill="#7e22ce">one process, many threads</text>
+  <rect x="60" y="158" width="312" height="212" rx="10" fill="#ffffff" stroke="#9333ea" stroke-width="1.8"/>
+  <text x="216" y="182" text-anchor="middle" font-size="12" font-weight="700" fill="#7e22ce">single process (shared heap)</text>
+  <g>
+    <rect x="80" y="198" width="120" height="66" rx="9" fill="#f3e8ff" stroke="#9333ea" stroke-width="1.6"/>
+    <text x="140" y="228" text-anchor="middle" font-size="12" font-weight="700" fill="#7e22ce">Thread A</text>
+    <text x="140" y="247" text-anchor="middle" font-size="11" fill="#7e22ce">V8 isolate</text>
+    <rect x="232" y="198" width="120" height="66" rx="9" fill="#f3e8ff" stroke="#9333ea" stroke-width="1.6"/>
+    <text x="292" y="228" text-anchor="middle" font-size="12" font-weight="700" fill="#7e22ce">Thread B</text>
+    <text x="292" y="247" text-anchor="middle" font-size="11" fill="#7e22ce">V8 isolate</text>
+  </g>
+  <rect x="80" y="284" width="272" height="66" rx="9" fill="#ede9fe" stroke="#9333ea" stroke-width="1.6"/>
+  <text x="216" y="312" text-anchor="middle" font-size="12" font-weight="700" fill="#7e22ce">SharedArrayBuffer</text>
+  <text x="216" y="332" text-anchor="middle" font-size="11" fill="#7e22ce">real shared memory, MessagePort</text>
+
+  <!-- cluster -->
+  <rect x="424" y="90" width="360" height="300" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="604" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">cluster</text>
+  <text x="604" y="142" text-anchor="middle" font-size="12" fill="#166534">many processes, isolated memory</text>
+  <g>
+    <rect x="448" y="164" width="150" height="90" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="523" y="192" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">Process 1</text>
+    <text x="523" y="212" text-anchor="middle" font-size="11" fill="#166534">own heap</text>
+    <text x="523" y="230" text-anchor="middle" font-size="11" fill="#166534">own event loop</text>
+    <rect x="610" y="164" width="150" height="90" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="685" y="192" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">Process 2</text>
+    <text x="685" y="212" text-anchor="middle" font-size="11" fill="#166534">own heap</text>
+    <text x="685" y="230" text-anchor="middle" font-size="11" fill="#166534">own event loop</text>
+  </g>
+  <rect x="448" y="272" width="312" height="78" rx="9" fill="#dcfce7" stroke="#16a34a" stroke-width="1.6"/>
+  <text x="604" y="300" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">no shared memory</text>
+  <text x="604" y="320" text-anchor="middle" font-size="11" fill="#166534">talk via IPC messages (serialized)</text>
+  <text x="604" y="338" text-anchor="middle" font-size="11" fill="#166534">best for scaling HTTP throughput</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="400" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">From your code down to MongoDB</text>
+
+  <rect x="260" y="70" width="300" height="52" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="93" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">Your app code</text>
+  <text x="410" y="112" text-anchor="middle" font-size="12" fill="#64748b">User.find, doc.save</text>
+
+  <rect x="260" y="146" width="300" height="52" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="169" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">Mongoose Model</text>
+  <text x="410" y="188" text-anchor="middle" font-size="12" fill="#64748b">schema, validation, casting, hooks</text>
+
+  <rect x="260" y="222" width="300" height="52" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="245" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">MongoDB driver</text>
+  <text x="410" y="264" text-anchor="middle" font-size="12" fill="#64748b">BSON, connection pool, wire protocol</text>
+
+  <rect x="260" y="298" width="300" height="52" rx="10" fill="#ffffff" stroke="#334155" stroke-width="2"/>
+  <text x="410" y="321" text-anchor="middle" font-size="15" font-weight="bold" fill="#334155">mongod server</text>
+  <text x="410" y="340" text-anchor="middle" font-size="12" fill="#64748b">collections of documents (BSON)</text>
+
+  <line x1="410" y1="122" x2="410" y2="146" stroke="#94a3b8" stroke-width="2" marker-end="url(#a10)"/>
+  <line x1="410" y1="198" x2="410" y2="222" stroke="#94a3b8" stroke-width="2" marker-end="url(#a10)"/>
+  <line x1="410" y1="274" x2="410" y2="298" stroke="#94a3b8" stroke-width="2" marker-end="url(#a10)"/>
+
+  <defs>
+    <marker id="a10" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <text x="410" y="384" text-anchor="middle" font-size="13" fill="#64748b">Mongoose is the modeling layer &#8212; the driver still does the talking</text>
+</svg>

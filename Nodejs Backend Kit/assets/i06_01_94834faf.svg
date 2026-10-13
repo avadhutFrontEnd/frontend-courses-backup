@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="418" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">Microtasks vs Macrotasks</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">One macrotask runs, then ALL microtasks drain, then the next macrotask. Repeat.</text>
+
+  <!-- macrotask side -->
+  <rect x="40" y="90" width="330" height="290" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="2.5"/>
+  <text x="205" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#c2410c">Macrotasks (one per turn)</text>
+  <g font-size="12.5" fill="#c2410c">
+    <rect x="64" y="140" width="282" height="40" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.8"/>
+    <text x="80" y="165" font-weight="700">setTimeout / setInterval</text>
+    <rect x="64" y="188" width="282" height="40" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.8"/>
+    <text x="80" y="213" font-weight="700">setImmediate</text>
+    <rect x="64" y="236" width="282" height="40" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.8"/>
+    <text x="80" y="261" font-weight="700">I/O callbacks (poll phase)</text>
+    <rect x="64" y="284" width="282" height="40" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.8"/>
+    <text x="80" y="309" font-weight="700">close callbacks</text>
+  </g>
+  <text x="205" y="352" text-anchor="middle" font-size="12" fill="#9a3412">Loop takes exactly ONE, runs it, then...</text>
+
+  <!-- microtask side -->
+  <rect x="450" y="90" width="330" height="290" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2.5"/>
+  <text x="615" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#7e22ce">Microtasks (drain ALL)</text>
+  <g font-size="12.5" fill="#7e22ce">
+    <rect x="474" y="140" width="282" height="52" rx="9" fill="#ffffff" stroke="#9333ea" stroke-width="1.8"/>
+    <text x="490" y="163" font-weight="700">process.nextTick</text>
+    <text x="490" y="182" font-size="11" fill="#64748b">highest priority, own queue</text>
+    <rect x="474" y="200" width="282" height="52" rx="9" fill="#ffffff" stroke="#9333ea" stroke-width="1.8"/>
+    <text x="490" y="223" font-weight="700">Promise .then / await</text>
+    <text x="490" y="242" font-size="11" fill="#64748b">runs after nextTick drains</text>
+    <rect x="474" y="260" width="282" height="52" rx="9" fill="#ffffff" stroke="#9333ea" stroke-width="1.8"/>
+    <text x="490" y="283" font-weight="700">queueMicrotask()</text>
+    <text x="490" y="302" font-size="11" fill="#64748b">same lane as promises</text>
+  </g>
+  <text x="615" y="352" text-anchor="middle" font-size="12" fill="#6b21a8">...drains fully (incl. newly added) before next macro</text>
+
+  <!-- arrow between -->
+  <g stroke="#334155" stroke-width="2.5" fill="none" marker-end="url(#ah3)">
+    <path d="M 372 235 L 446 235"/>
+  </g>
+  <defs>
+    <marker id="ah3" markerWidth="10" markerHeight="10" refX="7" refY="3" orient="auto">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

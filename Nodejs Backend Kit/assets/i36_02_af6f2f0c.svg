@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">REST vs RPC vs GraphQL</text>
+
+  <rect x="40" y="80" width="230" height="230" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="155" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">REST</text>
+  <text x="155" y="140" text-anchor="middle" font-size="13" fill="#334155">nouns + verbs</text>
+  <text x="155" y="164" text-anchor="middle" font-size="13" fill="#334155">GET /users/42</text>
+  <text x="155" y="196" text-anchor="middle" font-size="13" fill="#334155">many endpoints</text>
+  <text x="155" y="220" text-anchor="middle" font-size="13" fill="#334155">HTTP is cache</text>
+  <text x="155" y="244" text-anchor="middle" font-size="13" fill="#334155">friendly</text>
+  <text x="155" y="278" text-anchor="middle" font-size="13" fill="#64748b">resource oriented</text>
+
+  <rect x="295" y="80" width="230" height="230" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">RPC</text>
+  <text x="410" y="140" text-anchor="middle" font-size="13" fill="#334155">call functions</text>
+  <text x="410" y="164" text-anchor="middle" font-size="13" fill="#334155">POST /getUser</text>
+  <text x="410" y="196" text-anchor="middle" font-size="13" fill="#334155">one verb, many</text>
+  <text x="410" y="220" text-anchor="middle" font-size="13" fill="#334155">actions</text>
+  <text x="410" y="244" text-anchor="middle" font-size="13" fill="#334155">gRPC is typed</text>
+  <text x="410" y="278" text-anchor="middle" font-size="13" fill="#64748b">action oriented</text>
+
+  <rect x="550" y="80" width="230" height="230" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="665" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#9333ea">GraphQL</text>
+  <text x="665" y="140" text-anchor="middle" font-size="13" fill="#334155">one endpoint</text>
+  <text x="665" y="164" text-anchor="middle" font-size="13" fill="#334155">POST /graphql</text>
+  <text x="665" y="196" text-anchor="middle" font-size="13" fill="#334155">client picks</text>
+  <text x="665" y="220" text-anchor="middle" font-size="13" fill="#334155">fields it needs</text>
+  <text x="665" y="244" text-anchor="middle" font-size="13" fill="#334155">no over-fetch</text>
+  <text x="665" y="278" text-anchor="middle" font-size="13" fill="#64748b">query oriented</text>
+
+  <text x="410" y="340" text-anchor="middle" font-size="13" fill="#64748b">Pick REST for cacheable CRUD; gRPC for internal RPC; GraphQL for flexible client-driven reads</text>
+</svg>

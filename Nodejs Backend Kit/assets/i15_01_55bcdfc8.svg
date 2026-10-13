@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <rect x="10" y="10" width="800" height="320" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="45" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">await pauses, it does not block</text>
+
+  <rect x="50" y="85" width="330" height="200" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="215" y="115" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">You write</text>
+  <text x="215" y="150" text-anchor="middle" font-size="13" fill="#334155">const u = await getUser()</text>
+  <text x="215" y="176" text-anchor="middle" font-size="13" fill="#334155">console.log(u.name)</text>
+  <text x="215" y="230" text-anchor="middle" font-size="12" fill="#64748b">Reads top-to-bottom,</text>
+  <text x="215" y="250" text-anchor="middle" font-size="12" fill="#64748b">like synchronous code.</text>
+
+  <rect x="440" y="85" width="330" height="200" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="605" y="115" text-anchor="middle" font-size="15" font-weight="bold" fill="#0f172a">Engine runs</text>
+  <text x="605" y="150" text-anchor="middle" font-size="13" fill="#334155">getUser().then(u =&gt; {</text>
+  <text x="605" y="176" text-anchor="middle" font-size="13" fill="#334155">console.log(u.name) })</text>
+  <text x="605" y="230" text-anchor="middle" font-size="12" fill="#64748b">Suspends the function,</text>
+  <text x="605" y="250" text-anchor="middle" font-size="12" fill="#64748b">frees the event loop.</text>
+
+  <line x1="382" y1="185" x2="438" y2="185" stroke="#334155" stroke-width="2.5" marker-end="url(#a4)"/>
+  <text x="410" y="175" text-anchor="middle" font-size="12" fill="#9333ea" font-weight="bold">desugars to</text>
+
+  <defs>
+    <marker id="a4" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#334155"/>
+    </marker>
+  </defs>
+</svg>

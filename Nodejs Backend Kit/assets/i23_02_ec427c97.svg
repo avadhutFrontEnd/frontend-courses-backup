@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 380" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+  <rect x="10" y="10" width="800" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="410" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">The Four Stream Types</text>
+
+  <!-- Readable -->
+  <rect x="40" y="80" width="350" height="120" rx="14" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="215" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">Readable</text>
+  <text x="215" y="134" text-anchor="middle" font-size="13" fill="#334155">Source you read FROM</text>
+  <text x="215" y="156" text-anchor="middle" font-size="12" fill="#64748b">fs read stream, HTTP request,</text>
+  <text x="215" y="174" text-anchor="middle" font-size="12" fill="#64748b">process.stdin</text>
+
+  <!-- Writable -->
+  <rect x="430" y="80" width="350" height="120" rx="14" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="605" y="110" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">Writable</text>
+  <text x="605" y="134" text-anchor="middle" font-size="13" fill="#334155">Sink you write TO</text>
+  <text x="605" y="156" text-anchor="middle" font-size="12" fill="#64748b">fs write stream, HTTP response,</text>
+  <text x="605" y="174" text-anchor="middle" font-size="12" fill="#64748b">process.stdout</text>
+
+  <!-- Duplex -->
+  <rect x="40" y="220" width="350" height="120" rx="14" fill="#faf5ff" stroke="#9333ea"/>
+  <text x="215" y="250" text-anchor="middle" font-size="16" font-weight="bold" fill="#9333ea">Duplex</text>
+  <text x="215" y="274" text-anchor="middle" font-size="13" fill="#334155">Read AND write, independent</text>
+  <text x="215" y="296" text-anchor="middle" font-size="12" fill="#64748b">TCP socket — two channels,</text>
+  <text x="215" y="314" text-anchor="middle" font-size="12" fill="#64748b">in and out unrelated</text>
+
+  <!-- Transform -->
+  <rect x="430" y="220" width="350" height="120" rx="14" fill="#faf5ff" stroke="#9333ea"/>
+  <text x="605" y="250" text-anchor="middle" font-size="16" font-weight="bold" fill="#9333ea">Transform</text>
+  <text x="605" y="274" text-anchor="middle" font-size="13" fill="#334155">Duplex where out = f(in)</text>
+  <text x="605" y="296" text-anchor="middle" font-size="12" fill="#64748b">gzip, crypto cipher,</text>
+  <text x="605" y="314" text-anchor="middle" font-size="12" fill="#64748b">CSV / JSON parser</text>
+</svg>

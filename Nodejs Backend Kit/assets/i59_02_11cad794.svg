@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="358" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">Three Ways to Move Data to a Worker</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">Copy is safe but slow; transfer hands over ownership; shared is truly concurrent.</text>
+
+  <!-- copy -->
+  <rect x="30" y="92" width="248" height="240" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2.5"/>
+  <text x="154" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#1d4ed8">1. Copy (structured clone)</text>
+  <text x="154" y="142" text-anchor="middle" font-size="11" fill="#3b82f6">postMessage(obj)</text>
+  <rect x="52" y="158" width="90" height="54" rx="9" fill="#ffffff" stroke="#3b82f6" stroke-width="1.6"/>
+  <text x="97" y="190" text-anchor="middle" font-size="12" font-weight="700" fill="#1d4ed8">main</text>
+  <rect x="166" y="158" width="90" height="54" rx="9" fill="#ffffff" stroke="#3b82f6" stroke-width="1.6"/>
+  <text x="211" y="190" text-anchor="middle" font-size="12" font-weight="700" fill="#1d4ed8">worker</text>
+  <text x="154" y="245" text-anchor="middle" font-size="11" fill="#3b82f6">both keep a full copy</text>
+  <text x="154" y="266" text-anchor="middle" font-size="11" fill="#3b82f6">cost grows with size</text>
+  <text x="154" y="300" text-anchor="middle" font-size="11" font-weight="700" fill="#1d4ed8">safe, no race</text>
+
+  <!-- transfer -->
+  <rect x="286" y="92" width="248" height="240" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="2.5"/>
+  <text x="410" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#c2410c">2. Transfer (zero-copy)</text>
+  <text x="410" y="142" text-anchor="middle" font-size="11" fill="#c2410c">postMessage(buf, [buf])</text>
+  <rect x="308" y="158" width="90" height="54" rx="9" fill="#ffffff" stroke="#cbd5e1" stroke-width="1.6"/>
+  <text x="353" y="182" text-anchor="middle" font-size="12" fill="#94a3b8">main</text>
+  <text x="353" y="200" text-anchor="middle" font-size="10" fill="#94a3b8">detached</text>
+  <rect x="422" y="158" width="90" height="54" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.6"/>
+  <text x="467" y="190" text-anchor="middle" font-size="12" font-weight="700" fill="#c2410c">worker</text>
+  <text x="410" y="245" text-anchor="middle" font-size="11" fill="#c2410c">buffer ownership moves</text>
+  <text x="410" y="266" text-anchor="middle" font-size="11" fill="#c2410c">sender can no longer read</text>
+  <text x="410" y="300" text-anchor="middle" font-size="11" font-weight="700" fill="#c2410c">fast, ArrayBuffer only</text>
+
+  <!-- shared -->
+  <rect x="542" y="92" width="248" height="240" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="666" y="120" text-anchor="middle" font-size="15" font-weight="700" fill="#166534">3. Share (concurrent)</text>
+  <text x="666" y="142" text-anchor="middle" font-size="11" fill="#166534">SharedArrayBuffer</text>
+  <rect x="564" y="158" width="90" height="54" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.6"/>
+  <text x="609" y="190" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">main</text>
+  <rect x="678" y="158" width="90" height="54" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.6"/>
+  <text x="723" y="190" text-anchor="middle" font-size="12" font-weight="700" fill="#166534">worker</text>
+  <rect x="584" y="222" width="164" height="26" rx="7" fill="#dcfce7" stroke="#16a34a" stroke-width="1.4"/>
+  <text x="666" y="240" text-anchor="middle" font-size="11" font-weight="700" fill="#166534">same memory</text>
+  <text x="666" y="272" text-anchor="middle" font-size="11" fill="#166534">both read &amp; write live</text>
+  <text x="666" y="300" text-anchor="middle" font-size="11" font-weight="700" fill="#166534">use Atomics to sync</text>
+</svg>

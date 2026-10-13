@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="418" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">Thread Pool vs Kernel: What Goes Where</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">Not all async is equal. Some work is truly non-blocking; some is faked with worker threads.</text>
+
+  <!-- kernel async column -->
+  <rect x="36" y="90" width="360" height="300" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2.5"/>
+  <text x="216" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#166534">Kernel async (free)</text>
+  <text x="216" y="142" text-anchor="middle" font-size="12" fill="#166534">no thread used — OS notifies the loop</text>
+  <g font-size="13" fill="#166534">
+    <rect x="60" y="160" width="312" height="42" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="78" y="186" font-weight="700">TCP / UDP sockets</text>
+    <rect x="60" y="212" width="312" height="42" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="78" y="238" font-weight="700">HTTP / HTTPS servers &amp; clients</text>
+    <rect x="60" y="264" width="312" height="42" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="78" y="290" font-weight="700">Pipes, TTY, child process I/O</text>
+    <rect x="60" y="316" width="312" height="42" rx="9" fill="#ffffff" stroke="#16a34a" stroke-width="1.8"/>
+    <text x="78" y="342" font-weight="700">dns.resolve() (uses c-ares)</text>
+  </g>
+
+  <!-- thread pool column -->
+  <rect x="424" y="90" width="360" height="300" rx="14" fill="#fff7ed" stroke="#ea580c" stroke-width="2.5"/>
+  <text x="604" y="120" text-anchor="middle" font-size="16" font-weight="700" fill="#c2410c">Thread pool (4 slots)</text>
+  <text x="604" y="142" text-anchor="middle" font-size="12" fill="#c2410c">blocks a worker — can queue up</text>
+  <g font-size="13" fill="#c2410c">
+    <rect x="448" y="160" width="312" height="42" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.8"/>
+    <text x="466" y="186" font-weight="700">fs.* file operations</text>
+    <rect x="448" y="212" width="312" height="42" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.8"/>
+    <text x="466" y="238" font-weight="700">crypto.pbkdf2 / randomBytes</text>
+    <rect x="448" y="264" width="312" height="42" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.8"/>
+    <text x="466" y="290" font-weight="700">zlib compression</text>
+    <rect x="448" y="316" width="312" height="42" rx="9" fill="#ffffff" stroke="#ea580c" stroke-width="1.8"/>
+    <text x="466" y="342" font-weight="700">dns.lookup() (getaddrinfo)</text>
+  </g>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="10" y="10" width="800" height="380" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="410" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">How an error skips ahead</text>
+
+  <rect x="50" y="90" width="150" height="70" rx="12" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="125" y="122" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">middleware A</text>
+  <text x="125" y="144" text-anchor="middle" font-size="12" fill="#64748b">next()</text>
+
+  <rect x="240" y="90" width="150" height="70" rx="12" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="315" y="122" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">handler</text>
+  <text x="315" y="144" text-anchor="middle" font-size="12" fill="#64748b">throws / next(err)</text>
+
+  <rect x="430" y="90" width="150" height="70" rx="12" fill="#e2e8f0" stroke="#94a3b8"/>
+  <text x="505" y="122" text-anchor="middle" font-size="13" font-weight="bold" fill="#64748b">normal mw</text>
+  <text x="505" y="144" text-anchor="middle" font-size="12" fill="#64748b">SKIPPED</text>
+
+  <rect x="620" y="90" width="150" height="70" rx="12" fill="#fff7ed" stroke="#ea580c"/>
+  <text x="695" y="118" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">error handler</text>
+  <text x="695" y="138" text-anchor="middle" font-size="11" fill="#64748b">(err, req, res, next)</text>
+  <text x="695" y="154" text-anchor="middle" font-size="11" fill="#64748b">4 arguments</text>
+
+  <line x1="200" y1="125" x2="238" y2="125" stroke="#94a3b8" stroke-width="2" marker-end="url(#a8g)"/>
+  <path d="M315,160 L315,230 L695,230 L695,162" fill="none" stroke="#ea580c" stroke-width="2.5" marker-end="url(#a8h)"/>
+  <text x="505" y="222" text-anchor="middle" font-size="12" fill="#ea580c">error jumps straight to the 4-arg handler</text>
+
+  <rect x="150" y="280" width="520" height="90" rx="12" fill="#ffffff" stroke="#94a3b8"/>
+  <text x="410" y="308" text-anchor="middle" font-size="13" font-weight="bold" fill="#0f172a">Express 4: async throws are NOT caught — you must call next(err)</text>
+  <text x="410" y="334" text-anchor="middle" font-size="12" fill="#64748b">try/catch in async handlers, or a wrapper that forwards rejections</text>
+  <text x="410" y="356" text-anchor="middle" font-size="12" fill="#64748b">Express 5: a rejected async handler auto-forwards to next(err)</text>
+
+  <defs>
+    <marker id="a8g" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+    <marker id="a8h" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#ea580c"/>
+    </marker>
+  </defs>
+</svg>

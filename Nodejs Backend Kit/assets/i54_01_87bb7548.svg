@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 460" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="460" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">The testing pyramid</text>
+
+  <polygon points="410,80 500,170 320,170" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="135" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">E2E</text>
+  <text x="410" y="156" text-anchor="middle" font-size="11" fill="#334155">few &#183; slow</text>
+
+  <polygon points="320,175 500,175 570,275 250,275" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="222" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">Integration</text>
+  <text x="410" y="244" text-anchor="middle" font-size="11" fill="#334155">some &#183; medium speed</text>
+
+  <polygon points="250,280 570,280 660,400 160,400" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="335" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">Unit</text>
+  <text x="410" y="358" text-anchor="middle" font-size="11" fill="#334155">many &#183; fast &#183; isolated</text>
+
+  <text x="700" y="150" text-anchor="middle" font-size="12" fill="#64748b">confidence</text>
+  <text x="700" y="168" text-anchor="middle" font-size="12" fill="#64748b">per test &#8593;</text>
+  <text x="700" y="360" text-anchor="middle" font-size="12" fill="#64748b">count &amp;</text>
+  <text x="700" y="378" text-anchor="middle" font-size="12" fill="#64748b">speed &#8593;</text>
+
+  <text x="410" y="438" text-anchor="middle" font-size="13" fill="#64748b">Push tests down: more fast unit tests, fewer brittle end-to-end tests</text>
+</svg>

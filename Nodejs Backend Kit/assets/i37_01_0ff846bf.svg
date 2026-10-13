@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 430" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="430" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">CRUD to HTTP verbs and status codes</text>
+
+  <rect x="40" y="80" width="740" height="52" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5"/>
+  <text x="120" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#64748b">CRUD</text>
+  <text x="300" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#64748b">HTTP verb</text>
+  <text x="500" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#64748b">Success code</text>
+  <text x="690" y="112" text-anchor="middle" font-size="14" font-weight="bold" fill="#64748b">Idempotent?</text>
+
+  <rect x="40" y="142" width="740" height="52" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="120" y="174" text-anchor="middle" font-size="14" fill="#334155">Read</text>
+  <text x="300" y="174" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">GET</text>
+  <text x="500" y="174" text-anchor="middle" font-size="14" fill="#334155">200 OK</text>
+  <text x="690" y="174" text-anchor="middle" font-size="14" fill="#334155">yes &#183; safe</text>
+
+  <rect x="40" y="204" width="740" height="52" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="120" y="236" text-anchor="middle" font-size="14" fill="#334155">Create</text>
+  <text x="300" y="236" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">POST</text>
+  <text x="500" y="236" text-anchor="middle" font-size="14" fill="#334155">201 Created</text>
+  <text x="690" y="236" text-anchor="middle" font-size="14" fill="#334155">no</text>
+
+  <rect x="40" y="266" width="740" height="52" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="120" y="298" text-anchor="middle" font-size="14" fill="#334155">Update</text>
+  <text x="300" y="298" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">PUT / PATCH</text>
+  <text x="500" y="298" text-anchor="middle" font-size="14" fill="#334155">200 / 204</text>
+  <text x="690" y="298" text-anchor="middle" font-size="14" fill="#334155">PUT yes &#183; PATCH no</text>
+
+  <rect x="40" y="328" width="740" height="52" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="120" y="360" text-anchor="middle" font-size="14" fill="#334155">Delete</text>
+  <text x="300" y="360" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">DELETE</text>
+  <text x="500" y="360" text-anchor="middle" font-size="14" fill="#334155">200 / 204</text>
+  <text x="690" y="360" text-anchor="middle" font-size="14" fill="#334155">yes</text>
+
+  <text x="410" y="410" text-anchor="middle" font-size="13" fill="#64748b">Safe = no state change; idempotent = same effect if repeated N times</text>
+</svg>

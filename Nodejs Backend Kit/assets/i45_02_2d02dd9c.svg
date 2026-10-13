@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400">
+  <rect x="10" y="10" width="800" height="380" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="23" font-weight="bold" fill="#0f172a">Sessions (stateful) vs Tokens (stateless)</text>
+
+  <rect x="40" y="80" width="345" height="285" rx="16" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="212" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e3a8a">Server-side sessions</text>
+  <rect x="65" y="130" width="130" height="46" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="130" y="158" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Browser: cookie</text>
+  <rect x="230" y="130" width="130" height="46" rx="10" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="295" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Server store</text>
+  <text x="295" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">Redis / DB</text>
+  <line x1="195" y1="153" x2="228" y2="153" stroke="#64748b" stroke-width="2" marker-end="url(#b11)"/>
+  <text x="212" y="205" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Cookie holds only an opaque ID</text>
+  <text x="212" y="227" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">State lives on the server</text>
+  <text x="212" y="257" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">+ Instant revoke (delete row)</text>
+  <text x="212" y="279" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">+ Small cookie, easy rotate</text>
+  <text x="212" y="309" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">- Needs a store / lookup each req</text>
+  <text x="212" y="331" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">- Harder to scale across nodes</text>
+
+  <rect x="435" y="80" width="345" height="285" rx="16" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="607" y="110" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="bold" fill="#166534">Self-contained tokens (JWT)</text>
+  <rect x="460" y="130" width="130" height="46" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="525" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Client holds</text>
+  <text x="525" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">signed token</text>
+  <rect x="625" y="130" width="130" height="46" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="690" y="152" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Server verifies</text>
+  <text x="690" y="168" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="11" fill="#64748b">signature only</text>
+  <line x1="590" y1="153" x2="623" y2="153" stroke="#64748b" stroke-width="2" marker-end="url(#b11)"/>
+  <text x="607" y="205" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">Claims + signature in the token</text>
+  <text x="607" y="227" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" fill="#334155">No lookup — verify with a key</text>
+  <text x="607" y="257" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">+ Stateless, scales horizontally</text>
+  <text x="607" y="279" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#166534">+ Good for APIs / microservices</text>
+  <text x="607" y="309" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">- Hard to revoke before expiry</text>
+  <text x="607" y="331" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="12" font-weight="bold" fill="#dc2626">- Bigger; leaks if stored badly</text>
+
+  <defs>
+    <marker id="b11" markerWidth="9" markerHeight="9" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+</svg>

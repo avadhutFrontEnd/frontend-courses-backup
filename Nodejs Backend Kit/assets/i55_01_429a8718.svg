@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="340" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Arrange &#183; Act &#183; Assert</text>
+
+  <rect x="40" y="90" width="220" height="150" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="150" y="122" text-anchor="middle" font-size="17" font-weight="bold" fill="#16a34a">Arrange</text>
+  <text x="150" y="152" text-anchor="middle" font-size="12" fill="#334155">set up inputs</text>
+  <text x="150" y="174" text-anchor="middle" font-size="12" fill="#334155">and state</text>
+  <text x="150" y="204" text-anchor="middle" font-size="12" fill="#64748b">build the world</text>
+  <text x="150" y="224" text-anchor="middle" font-size="12" fill="#64748b">the test needs</text>
+
+  <rect x="300" y="90" width="220" height="150" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="122" text-anchor="middle" font-size="17" font-weight="bold" fill="#3b82f6">Act</text>
+  <text x="410" y="152" text-anchor="middle" font-size="12" fill="#334155">call the one</text>
+  <text x="410" y="174" text-anchor="middle" font-size="12" fill="#334155">thing under test</text>
+  <text x="410" y="204" text-anchor="middle" font-size="12" fill="#64748b">a single</text>
+  <text x="410" y="224" text-anchor="middle" font-size="12" fill="#64748b">invocation</text>
+
+  <rect x="560" y="90" width="220" height="150" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="670" y="122" text-anchor="middle" font-size="17" font-weight="bold" fill="#9333ea">Assert</text>
+  <text x="670" y="152" text-anchor="middle" font-size="12" fill="#334155">check the</text>
+  <text x="670" y="174" text-anchor="middle" font-size="12" fill="#334155">observable result</text>
+  <text x="670" y="204" text-anchor="middle" font-size="12" fill="#64748b">one behaviour</text>
+  <text x="670" y="224" text-anchor="middle" font-size="12" fill="#64748b">per test</text>
+
+  <path d="M262 165 L298 165" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar13a)"/>
+  <path d="M522 165 L558 165" stroke="#94a3b8" stroke-width="2" marker-end="url(#ar13a)"/>
+  <defs>
+    <marker id="ar13a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+
+  <text x="410" y="290" text-anchor="middle" font-size="14" font-weight="bold" fill="#0f172a">Three visual blocks make intent obvious at a glance</text>
+  <text x="410" y="316" text-anchor="middle" font-size="13" fill="#64748b">A blank line between each block is the whole convention</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 340" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="340" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">A Buffer is fixed raw bytes</text>
+
+  <text x="410" y="80" text-anchor="middle" font-size="15" fill="#334155">Buffer.from(&quot;Hi&quot;) &#8212; UTF-8 encodes each character to bytes</text>
+
+  <g font-family="ui-monospace, monospace">
+    <rect x="230" y="105" width="170" height="70" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="315" y="140" text-anchor="middle" font-size="18" fill="#334155">'H'</text>
+    <text x="315" y="163" text-anchor="middle" font-size="14" fill="#64748b">0x48 = 72</text>
+
+    <rect x="420" y="105" width="170" height="70" rx="10" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="505" y="140" text-anchor="middle" font-size="18" fill="#334155">'i'</text>
+    <text x="505" y="163" text-anchor="middle" font-size="14" fill="#64748b">0x69 = 105</text>
+  </g>
+
+  <text x="410" y="205" text-anchor="middle" font-size="13" fill="#64748b">length = 2 bytes, allocated once, cannot grow</text>
+
+  <rect x="60" y="230" width="340" height="80" rx="10" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="230" y="258" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">alloc(n) &#8212; safe</text>
+  <text x="230" y="282" text-anchor="middle" font-size="13" fill="#334155">zero-filled, predictable</text>
+  <text x="230" y="301" text-anchor="middle" font-size="12" fill="#64748b">use for anything you return</text>
+
+  <rect x="420" y="230" width="340" height="80" rx="10" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="590" y="258" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">allocUnsafe(n) &#8212; fast</text>
+  <text x="590" y="282" text-anchor="middle" font-size="13" fill="#334155">reuses old memory</text>
+  <text x="590" y="301" text-anchor="middle" font-size="12" fill="#64748b">must overwrite fully first</text>
+</svg>

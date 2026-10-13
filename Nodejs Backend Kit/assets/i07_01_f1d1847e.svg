@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" font-family="ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif">
+  <rect x="1" y="1" width="818" height="398" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="38" text-anchor="middle" font-size="23" font-weight="700" fill="#0f172a">A Blocked Loop Serves No One</text>
+  <text x="410" y="62" text-anchor="middle" font-size="13" fill="#64748b">While synchronous CPU work runs, every other request waits. Latency piles up behind it.</text>
+
+  <!-- healthy timeline -->
+  <text x="40" y="104" font-size="14" font-weight="700" fill="#166534">Healthy: many small callbacks, loop keeps turning</text>
+  <g>
+    <rect x="40" y="116" width="80" height="40" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="80" y="141" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">req A</text>
+    <rect x="128" y="116" width="80" height="40" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="168" y="141" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">req B</text>
+    <rect x="216" y="116" width="80" height="40" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="256" y="141" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">req C</text>
+    <rect x="304" y="116" width="80" height="40" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="344" y="141" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">req D</text>
+    <rect x="392" y="116" width="80" height="40" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="432" y="141" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">req E</text>
+    <text x="500" y="141" font-size="12" fill="#64748b">each returns in ~1ms</text>
+  </g>
+
+  <!-- blocked timeline -->
+  <text x="40" y="212" font-size="14" font-weight="700" fill="#c2410c">Blocked: one CPU-bound handler stalls everything</text>
+  <g>
+    <rect x="40" y="224" width="80" height="40" rx="7" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+    <text x="80" y="249" text-anchor="middle" font-size="11.5" font-weight="700" fill="#166534">req A</text>
+    <rect x="128" y="224" width="470" height="40" rx="7" fill="#fff7ed" stroke="#ea580c" stroke-width="2.5"/>
+    <text x="363" y="243" text-anchor="middle" font-size="12.5" font-weight="700" fill="#c2410c">req B: JSON.parse of 40MB + sync hashing</text>
+    <text x="363" y="259" text-anchor="middle" font-size="11" fill="#9a3412">800ms of pure CPU — loop cannot advance</text>
+    <rect x="606" y="224" width="80" height="40" rx="7" fill="#fee2e2" stroke="#dc2626" stroke-width="2"/>
+    <text x="646" y="243" text-anchor="middle" font-size="11" font-weight="700" fill="#b91c1c">req C</text>
+    <text x="646" y="258" text-anchor="middle" font-size="9.5" fill="#b91c1c">waited 800ms</text>
+  </g>
+
+  <!-- fix box -->
+  <rect x="40" y="300" width="740" height="80" rx="12" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="328" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">Fixes</text>
+  <text x="410" y="350" text-anchor="middle" font-size="12" fill="#1d4ed8">Offload to a Worker thread or child process • chunk the work • stream instead of buffering</text>
+  <text x="410" y="370" text-anchor="middle" font-size="12" fill="#1d4ed8">Measure lag with monitorEventLoopDelay() and set a p99 budget</text>
+</svg>

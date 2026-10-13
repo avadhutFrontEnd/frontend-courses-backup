@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="400" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">How a connection pool works</text>
+
+  <rect x="40" y="90" width="180" height="230" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="130" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">Incoming requests</text>
+  <rect x="65" y="135" width="130" height="34" rx="6" fill="#ffffff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="130" y="157" text-anchor="middle" font-size="12" fill="#334155">req A</text>
+  <rect x="65" y="177" width="130" height="34" rx="6" fill="#ffffff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="130" y="199" text-anchor="middle" font-size="12" fill="#334155">req B</text>
+  <rect x="65" y="219" width="130" height="34" rx="6" fill="#ffffff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="130" y="241" text-anchor="middle" font-size="12" fill="#334155">req C (waits)</text>
+  <rect x="65" y="261" width="130" height="34" rx="6" fill="#ffffff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="130" y="283" text-anchor="middle" font-size="12" fill="#334155">req D (waits)</text>
+
+  <rect x="320" y="90" width="200" height="230" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="420" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">Pool (max 2)</text>
+  <rect x="345" y="140" width="150" height="44" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="420" y="167" text-anchor="middle" font-size="12" fill="#334155">conn 1 &#8594; in use</text>
+  <rect x="345" y="196" width="150" height="44" rx="8" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <text x="420" y="223" text-anchor="middle" font-size="12" fill="#334155">conn 2 &#8594; in use</text>
+  <text x="420" y="280" text-anchor="middle" font-size="12" fill="#64748b">Reused, never</text>
+  <text x="420" y="298" text-anchor="middle" font-size="12" fill="#64748b">reopened per query</text>
+
+  <rect x="620" y="90" width="160" height="230" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="700" y="118" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">Database</text>
+  <rect x="645" y="150" width="110" height="120" rx="10" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="700" y="205" text-anchor="middle" font-size="13" fill="#334155">mongod /</text>
+  <text x="700" y="225" text-anchor="middle" font-size="13" fill="#334155">postgres</text>
+
+  <line x1="220" y1="205" x2="320" y2="205" stroke="#94a3b8" stroke-width="2" marker-end="url(#c10)"/>
+  <line x1="520" y1="205" x2="620" y2="205" stroke="#94a3b8" stroke-width="2" marker-end="url(#c10)"/>
+
+  <defs>
+    <marker id="c10" markerWidth="9" markerHeight="9" refX="6" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <text x="410" y="358" text-anchor="middle" font-size="13" fill="#334155">A fixed set of open connections is borrowed, used, and returned</text>
+  <text x="410" y="382" text-anchor="middle" font-size="13" fill="#64748b">Overflow requests queue until one frees up &#8212; forgetting to release causes a leak</text>
+</svg>

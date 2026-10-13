@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 360" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="360" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Three ways to version an API</text>
+
+  <rect x="40" y="80" width="230" height="230" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="155" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#16a34a">URI path</text>
+  <rect x="70" y="132" width="170" height="40" rx="8" fill="#ffffff" stroke="#16a34a" stroke-width="1.5"/>
+  <text x="155" y="157" text-anchor="middle" font-size="12" fill="#334155">/v1/users</text>
+  <text x="155" y="196" text-anchor="middle" font-size="12" fill="#334155">visible, cache</text>
+  <text x="155" y="216" text-anchor="middle" font-size="12" fill="#334155">easy to route</text>
+  <text x="155" y="252" text-anchor="middle" font-size="12" fill="#64748b">most common</text>
+  <text x="155" y="276" text-anchor="middle" font-size="12" fill="#dc2626">not purist REST</text>
+
+  <rect x="295" y="80" width="230" height="230" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="410" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#3b82f6">Custom header</text>
+  <rect x="325" y="132" width="170" height="40" rx="8" fill="#ffffff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="410" y="157" text-anchor="middle" font-size="11" fill="#334155">API-Version: 2</text>
+  <text x="410" y="196" text-anchor="middle" font-size="12" fill="#334155">clean URLs</text>
+  <text x="410" y="216" text-anchor="middle" font-size="12" fill="#334155">flexible</text>
+  <text x="410" y="252" text-anchor="middle" font-size="12" fill="#dc2626">harder to test</text>
+  <text x="410" y="276" text-anchor="middle" font-size="12" fill="#dc2626">cache complexity</text>
+
+  <rect x="550" y="80" width="230" height="230" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="665" y="112" text-anchor="middle" font-size="16" font-weight="bold" fill="#9333ea">Media type</text>
+  <rect x="580" y="132" width="170" height="40" rx="8" fill="#ffffff" stroke="#9333ea" stroke-width="1.5"/>
+  <text x="665" y="152" text-anchor="middle" font-size="10" fill="#334155">Accept: application/</text>
+  <text x="665" y="166" text-anchor="middle" font-size="10" fill="#334155">vnd.app.v2+json</text>
+  <text x="665" y="200" text-anchor="middle" font-size="12" fill="#334155">purest REST</text>
+  <text x="665" y="220" text-anchor="middle" font-size="12" fill="#334155">content-negotiate</text>
+  <text x="665" y="256" text-anchor="middle" font-size="12" fill="#dc2626">least tooling</text>
+  <text x="665" y="280" text-anchor="middle" font-size="12" fill="#dc2626">support</text>
+
+  <text x="410" y="342" text-anchor="middle" font-size="13" fill="#64748b">URI versioning wins in practice; version only on breaking changes, add fields freely</text>
+</svg>

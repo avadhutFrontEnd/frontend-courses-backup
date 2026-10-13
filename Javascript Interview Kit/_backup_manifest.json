@@ -1,0 +1,168 @@
+{
+  "course": "JavaScript Interview Kit",
+  "start_url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/tricky-javascript-questions",
+  "count": 23,
+  "lessons": [
+    {
+      "index": 1,
+      "title": "Tricky Javascript questions",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/tricky-javascript-questions",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\01-tricky-javascript-questions.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/polyfill-coding-questions"
+    },
+    {
+      "index": 2,
+      "title": "Polyfill coding questions",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/polyfill-coding-questions",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\02-polyfill-coding-questions.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/js-and-react-patterns-and-solid-principles"
+    },
+    {
+      "index": 3,
+      "title": "JS and React Patterns and Solid Principles",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/js-and-react-patterns-and-solid-principles",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\03-js-and-react-patterns-and-solid-principles.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/javascript-interview-preparation-questions"
+    },
+    {
+      "index": 4,
+      "title": "Javascript Interview Preparation questions",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/javascript-interview-preparation-questions",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\04-javascript-interview-preparation-questions.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/data-types-and-coercion"
+    },
+    {
+      "index": 5,
+      "title": "Data Types & Coercion",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/data-types-and-coercion",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\05-data-types-coercion.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/scope-hoisting-and-tdz"
+    },
+    {
+      "index": 6,
+      "title": "Scope, Hoisting & the TDZ",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/scope-hoisting-and-tdz",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\06-scope-hoisting-the-tdz.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/execution-context-and-call-stack"
+    },
+    {
+      "index": 7,
+      "title": "Execution Context & the Call Stack",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/execution-context-and-call-stack",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\07-execution-context-the-call-stack.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/closures-in-depth"
+    },
+    {
+      "index": 8,
+      "title": "Closures in Depth",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/closures-in-depth",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\08-closures-in-depth.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/the-this-keyword"
+    },
+    {
+      "index": 9,
+      "title": "The this Keyword",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/the-this-keyword",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\09-the-this-keyword.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/call-apply-bind-and-currying"
+    },
+    {
+      "index": 10,
+      "title": "call, apply, bind & Currying",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/call-apply-bind-and-currying",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\10-call-apply-bind-currying.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/higher-order-functions-and-functional-patterns"
+    },
+    {
+      "index": 11,
+      "title": "Higher-Order Functions & Functional Patterns",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/higher-order-functions-and-functional-patterns",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\11-higher-order-functions-functional-patterns.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/objects-and-property-descriptors"
+    },
+    {
+      "index": 12,
+      "title": "Objects & Property Descriptors",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/objects-and-property-descriptors",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\12-objects-property-descriptors.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/prototype-chain-and-inheritance"
+    },
+    {
+      "index": 13,
+      "title": "The Prototype Chain & Inheritance",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/prototype-chain-and-inheritance",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\13-the-prototype-chain-inheritance.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/es6-classes"
+    },
+    {
+      "index": 14,
+      "title": "ES6 Classes",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/es6-classes",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\14-es6-classes.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/the-event-loop"
+    },
+    {
+      "index": 15,
+      "title": "The Event Loop",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/the-event-loop",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\15-the-event-loop.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/promises-deep-dive"
+    },
+    {
+      "index": 16,
+      "title": "Promises Deep Dive",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/promises-deep-dive",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\16-promises-deep-dive.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/async-await"
+    },
+    {
+      "index": 17,
+      "title": "async / await",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/async-await",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\17-async-await.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/callbacks-generators-and-iterators"
+    },
+    {
+      "index": 18,
+      "title": "Callbacks, Generators & Iterators",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/callbacks-generators-and-iterators",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\18-callbacks-generators-iterators.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/destructuring-spread-and-rest"
+    },
+    {
+      "index": 19,
+      "title": "Destructuring, Spread & Rest",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/destructuring-spread-and-rest",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\19-destructuring-spread-rest.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/map-set-weakmap-weakset"
+    },
+    {
+      "index": 20,
+      "title": "Map, Set, WeakMap & WeakSet",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/map-set-weakmap-weakset",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\20-map-set-weakmap-weakset.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/modules-esm-vs-commonjs"
+    },
+    {
+      "index": 21,
+      "title": "Modules: ESM vs CommonJS",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/modules-esm-vs-commonjs",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\21-modules-esm-vs-commonjs.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/symbols-iterators-and-proxy"
+    },
+    {
+      "index": 22,
+      "title": "Symbols, Iterators & Proxy",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/symbols-iterators-and-proxy",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\22-symbols-iterators-proxy.md",
+      "next": "https://www.geekyfrontend.in/learn/javascript-interview-kit/memory-management-and-garbage-collection"
+    },
+    {
+      "index": 23,
+      "title": "Memory Management & Garbage Collection",
+      "url": "https://www.geekyfrontend.in/learn/javascript-interview-kit/memory-management-and-garbage-collection",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\Javascript Interview Kit\\23-memory-management-garbage-collection.md",
+      "next": null
+    }
+  ]
+}

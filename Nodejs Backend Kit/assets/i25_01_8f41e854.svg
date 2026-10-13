@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 320" font-family="system-ui,Segoe UI,Roboto,sans-serif">
+  <rect x="10" y="10" width="800" height="300" rx="20" fill="#f8fafc" stroke="#e2e8f0"/>
+  <text x="410" y="46" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">A Transform Chain (compress a file)</text>
+
+  <rect x="30" y="110" width="150" height="70" rx="12" fill="#f0fdf4" stroke="#16a34a"/>
+  <text x="105" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#16a34a">Readable</text>
+  <text x="105" y="162" text-anchor="middle" font-size="12" fill="#64748b">file.txt</text>
+
+  <path d="M182 145 H228" stroke="#334155" stroke-width="2" marker-end="url(#tg)"/>
+
+  <rect x="230" y="110" width="150" height="70" rx="12" fill="#faf5ff" stroke="#9333ea"/>
+  <text x="305" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">Transform</text>
+  <text x="305" y="162" text-anchor="middle" font-size="12" fill="#64748b">gzip</text>
+
+  <path d="M382 145 H428" stroke="#334155" stroke-width="2" marker-end="url(#tg)"/>
+
+  <rect x="430" y="110" width="150" height="70" rx="12" fill="#faf5ff" stroke="#9333ea"/>
+  <text x="505" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#9333ea">Transform</text>
+  <text x="505" y="162" text-anchor="middle" font-size="12" fill="#64748b">encrypt</text>
+
+  <path d="M582 145 H628" stroke="#334155" stroke-width="2" marker-end="url(#tg)"/>
+
+  <rect x="630" y="110" width="160" height="70" rx="12" fill="#eff6ff" stroke="#3b82f6"/>
+  <text x="710" y="140" text-anchor="middle" font-size="14" font-weight="bold" fill="#3b82f6">Writable</text>
+  <text x="710" y="162" text-anchor="middle" font-size="12" fill="#64748b">file.txt.gz.enc</text>
+
+  <text x="410" y="235" text-anchor="middle" font-size="13" fill="#334155">Each stage reads a chunk, transforms it, writes the result to the next stage</text>
+  <text x="410" y="262" text-anchor="middle" font-size="13" fill="#64748b">Memory stays flat regardless of file size — backpressure flows back up the chain</text>
+
+  <defs>
+    <marker id="tg" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0 L10 5 L0 10 Z" fill="#334155"/></marker>
+  </defs>
+</svg>

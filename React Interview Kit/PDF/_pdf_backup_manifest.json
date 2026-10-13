@@ -1,0 +1,442 @@
+{
+  "course": "React Interview Kit",
+  "format": "pdf",
+  "start_url": "https://www.geekyfrontend.in/learn/react-interview-kit/virtual-dom",
+  "count": 62,
+  "lessons": [
+    {
+      "index": 1,
+      "title": "What is React, Virtual DOM & Reconciliation",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/virtual-dom",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\01-what-is-react-virtual-dom-reconciliation.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/jsx-it-s-not-html"
+    },
+    {
+      "index": 2,
+      "title": "JSX — It's Not HTML",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/jsx-it-s-not-html",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\02-jsx-its-not-html.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/components-props-composition"
+    },
+    {
+      "index": 3,
+      "title": "Components, Props & Composition",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/components-props-composition",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\03-components-props-composition.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/state-usestate-deep-dive"
+    },
+    {
+      "index": 4,
+      "title": "state usestate deep dive",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/state-usestate-deep-dive",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\04-state-usestate-deep-dive.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/component-lifecycle-useeffect-mastery"
+    },
+    {
+      "index": 5,
+      "title": "Component Lifecycle & useEffect Mastery",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/component-lifecycle-useeffect-mastery",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\05-component-lifecycle-useeffect-mastery.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/conditional-rendering-list-rendering"
+    },
+    {
+      "index": 6,
+      "title": "Conditional Rendering & List Rendering",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/conditional-rendering-list-rendering",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\06-conditional-rendering-list-rendering.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/forms-controlled-vs-uncontrolled-components"
+    },
+    {
+      "index": 7,
+      "title": "Forms: Controlled vs Uncontrolled Components",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/forms-controlled-vs-uncontrolled-components",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\07-forms-controlled-vs-uncontrolled-components.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/event-handling-in-react"
+    },
+    {
+      "index": 8,
+      "title": "Event Handling in React",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/event-handling-in-react",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\08-event-handling-in-react.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/refs-useref-beyond-dom-access"
+    },
+    {
+      "index": 9,
+      "title": "Refs & useRef: Beyond DOM Access",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/refs-useref-beyond-dom-access",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\09-refs-useref-beyond-dom-access.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/error-boundaries-handling-errors-gracefully"
+    },
+    {
+      "index": 10,
+      "title": "Error Boundaries & Handling Errors Gracefully",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/error-boundaries-handling-errors-gracefully",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\10-error-boundaries-handling-errors-gracefully.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/usereducer-when-usestate-isn-t-enough"
+    },
+    {
+      "index": 11,
+      "title": "useReducer: When useState Isn't Enough",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/usereducer-when-usestate-isn-t-enough",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\11-usereducer-when-usestate-isnt-enough.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/usecontext-the-context-api"
+    },
+    {
+      "index": 12,
+      "title": "useContext & the Context API",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/usecontext-the-context-api",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\12-usecontext-the-context-api.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/usememo-usecallback-performance-hooks"
+    },
+    {
+      "index": 13,
+      "title": "useMemo & useCallback: Performance Hooks",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/usememo-usecallback-performance-hooks",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\13-usememo-usecallback-performance-hooks.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/custom-hooks-building-reusable-logic"
+    },
+    {
+      "index": 14,
+      "title": "Custom Hooks: Building Reusable Logic",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/custom-hooks-building-reusable-logic",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\14-custom-hooks-building-reusable-logic.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/react-memo-purecomponent-re-render-prevention"
+    },
+    {
+      "index": 15,
+      "title": "React.memo, PureComponent & Re-render Prevention",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/react-memo-purecomponent-re-render-prevention",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\15-reactmemo-purecomponent-re-render-prevention.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/uselayouteffect-vs-useeffect"
+    },
+    {
+      "index": 16,
+      "title": "useLayoutEffect vs useEffect",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/uselayouteffect-vs-useeffect",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\16-uselayouteffect-vs-useeffect.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/react-router-complete-guide"
+    },
+    {
+      "index": 17,
+      "title": "React Router: Complete Guide",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/react-router-complete-guide",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\17-react-router-complete-guide.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/protected-routes-authentication-flow"
+    },
+    {
+      "index": 18,
+      "title": "Protected Routes & Authentication Flow",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/protected-routes-authentication-flow",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\18-protected-routes-authentication-flow.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/code-splitting-lazy-loading-routes"
+    },
+    {
+      "index": 19,
+      "title": "Code Splitting & Lazy Loading Routes",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/code-splitting-lazy-loading-routes",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\19-code-splitting-lazy-loading-routes.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/state-management-when-why-you-need-it"
+    },
+    {
+      "index": 20,
+      "title": "State Management: When & Why You Need It",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/state-management-when-why-you-need-it",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\20-state-management-when-why-you-need-it.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/redux-from-scratch-core-principles"
+    },
+    {
+      "index": 21,
+      "title": "Redux from Scratch: Core Principles",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/redux-from-scratch-core-principles",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\21-redux-from-scratch-core-principles.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/redux-toolkit-the-modern-way"
+    },
+    {
+      "index": 22,
+      "title": "Redux Toolkit: The Modern Way",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/redux-toolkit-the-modern-way",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\22-redux-toolkit-the-modern-way.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/redux-middleware-side-effects"
+    },
+    {
+      "index": 23,
+      "title": "Redux Middleware & Side Effects",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/redux-middleware-side-effects",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\23-redux-middleware-side-effects.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/context-api-vs-redux-the-real-answer"
+    },
+    {
+      "index": 24,
+      "title": "Context API vs Redux: The Real Answer",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/context-api-vs-redux-the-real-answer",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\24-context-api-vs-redux-the-real-answer.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/react-performance-the-complete-toolkit"
+    },
+    {
+      "index": 25,
+      "title": "React Performance: The Complete Toolkit",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/react-performance-the-complete-toolkit",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\25-react-performance-the-complete-toolkit.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/code-splitting-lazy-loading-suspense-deep-dive"
+    },
+    {
+      "index": 26,
+      "title": "Code Splitting, Lazy Loading & Suspense Deep Dive",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/code-splitting-lazy-loading-suspense-deep-dive",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\26-code-splitting-lazy-loading-suspense-deep-dive.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/virtualization-rendering-10-000-rows"
+    },
+    {
+      "index": 27,
+      "title": "Virtualization: Rendering 10,000 Rows",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/virtualization-rendering-10-000-rows",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\27-virtualization-rendering-10000-rows.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/memoization-strategies-when-not-to-optimize"
+    },
+    {
+      "index": 28,
+      "title": "Memoization Strategies & When NOT to Optimize",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/memoization-strategies-when-not-to-optimize",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\28-memoization-strategies-when-not-to-optimize.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/web-vitals-tree-shaking-bundle-optimization"
+    },
+    {
+      "index": 29,
+      "title": "Web Vitals, Tree Shaking & Bundle Optimization",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/web-vitals-tree-shaking-bundle-optimization",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\29-web-vitals-tree-shaking-bundle-optimization.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/container-presentational-pattern"
+    },
+    {
+      "index": 30,
+      "title": "Container/Presentational Pattern",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/container-presentational-pattern",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\30-containerpresentational-pattern.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/higher-order-components-hoc"
+    },
+    {
+      "index": 31,
+      "title": "Higher-Order Components (HOC)",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/higher-order-components-hoc",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\31-higher-order-components-hoc.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/render-props-pattern"
+    },
+    {
+      "index": 32,
+      "title": "Render Props Pattern",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/render-props-pattern",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\32-render-props-pattern.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/compound-component-pattern"
+    },
+    {
+      "index": 33,
+      "title": "Compound Component Pattern",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/compound-component-pattern",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\33-compound-component-pattern.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/provider-pattern-composition-pattern"
+    },
+    {
+      "index": 34,
+      "title": "Provider Pattern & Composition Pattern",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/provider-pattern-composition-pattern",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\34-provider-pattern-composition-pattern.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/solid-principles-in-react"
+    },
+    {
+      "index": 35,
+      "title": "SOLID Principles in React",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/solid-principles-in-react",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\35-solid-principles-in-react.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/fetching-data-fetch-vs-axios-vs-react-query"
+    },
+    {
+      "index": 36,
+      "title": "Fetching Data: fetch vs axios vs React Query",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/fetching-data-fetch-vs-axios-vs-react-query",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\36-fetching-data-fetch-vs-axios-vs-react-query.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/loading-error-empty-states"
+    },
+    {
+      "index": 37,
+      "title": "Loading, Error & Empty States",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/loading-error-empty-states",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\37-loading-error-empty-states.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/authentication-jwt-in-react"
+    },
+    {
+      "index": 38,
+      "title": "Authentication & JWT in React",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/authentication-jwt-in-react",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\38-authentication-jwt-in-react.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/debouncing-throttling"
+    },
+    {
+      "index": 39,
+      "title": "Debouncing & Throttling",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/debouncing-throttling",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\39-debouncing-throttling.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/testing-fundamentals-what-why-and-how"
+    },
+    {
+      "index": 40,
+      "title": "Testing Fundamentals: What, Why, and How",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/testing-fundamentals-what-why-and-how",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\40-testing-fundamentals-what-why-and-how.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/react-testing-library-practical-guide"
+    },
+    {
+      "index": 41,
+      "title": "React Testing Library: Practical Guide",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/react-testing-library-practical-guide",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\41-react-testing-library-practical-guide.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/mocking-api-calls-hooks-context"
+    },
+    {
+      "index": 42,
+      "title": "Mocking API Calls, Hooks & Context",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/mocking-api-calls-hooks-context",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\42-mocking-api-calls-hooks-context.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/scenario-this-react-app-is-slow-how-do-you-fix-it"
+    },
+    {
+      "index": 43,
+      "title": "Scenario: \"This React App is Slow. How Do You Fix It?\"",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/scenario-this-react-app-is-slow-how-do-you-fix-it",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\43-scenario-this-react-app-is-slow-how-do-you-fix-it.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/scenario-design-the-component-architecture-for-this-feature"
+    },
+    {
+      "index": 44,
+      "title": "Scenario: \"Design the Component Architecture for This Feature\"",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/scenario-design-the-component-architecture-for-this-feature",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\44-scenario-design-the-component-architecture-for-this-feature.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/scenario-how-do-you-manage-state-in-a-large-react-app"
+    },
+    {
+      "index": 45,
+      "title": "Scenario: \"How Do You Manage State in a Large React App?\"",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/scenario-how-do-you-manage-state-in-a-large-react-app",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\45-scenario-how-do-you-manage-state-in-a-large-react-app.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/scenario-walk-me-through-what-happens-when-you-type-a-url-and-see-a-react-page"
+    },
+    {
+      "index": 46,
+      "title": "Scenario: \"Walk Me Through What Happens When You Type a URL and See a React Page\"",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/scenario-walk-me-through-what-happens-when-you-type-a-url-and-see-a-react-page",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\46-scenario-walk-me-through-what-happens-when-you-type-a-url-and-see-a-react-page.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/behavioral-questions-what-interviewers-really-want"
+    },
+    {
+      "index": 47,
+      "title": "Behavioral Questions: What Interviewers Really Want",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/behavioral-questions-what-interviewers-really-want",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\47-behavioral-questions-what-interviewers-really-want.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/machine-coding-round-strategy-setup"
+    },
+    {
+      "index": 48,
+      "title": "Machine Coding Round: Strategy & Setup",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/machine-coding-round-strategy-setup",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\48-machine-coding-round-strategy-setup.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-counter-with-usereducer"
+    },
+    {
+      "index": 49,
+      "title": "Build: Counter with useReducer",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-counter-with-usereducer",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\49-build-counter-with-usereducer.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-dynamic-checkbox-with-select-all"
+    },
+    {
+      "index": 50,
+      "title": "Build: Dynamic Checkbox with Select All",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-dynamic-checkbox-with-select-all",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\50-build-dynamic-checkbox-with-select-all.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-todo-app-with-crud"
+    },
+    {
+      "index": 51,
+      "title": "Build: Todo App with CRUD",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-todo-app-with-crud",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\51-build-todo-app-with-crud.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-search-bar-with-debounced-api-calls"
+    },
+    {
+      "index": 52,
+      "title": "Build: Search Bar with Debounced API Calls",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-search-bar-with-debounced-api-calls",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\52-build-search-bar-with-debounced-api-calls.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-nested-circles-recursive-component"
+    },
+    {
+      "index": 53,
+      "title": "Build: Nested Circles (Recursive Component)",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-nested-circles-recursive-component",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\53-build-nested-circles-recursive-component.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-infinite-scroll-list"
+    },
+    {
+      "index": 54,
+      "title": "Build: Infinite Scroll List",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-infinite-scroll-list",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\54-build-infinite-scroll-list.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-multi-step-form-with-validation"
+    },
+    {
+      "index": 55,
+      "title": "Build: Multi-Step Form with Validation",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-multi-step-form-with-validation",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\55-build-multi-step-form-with-validation.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-star-rating-component"
+    },
+    {
+      "index": 56,
+      "title": "Build: Star Rating Component",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-star-rating-component",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\56-build-star-rating-component.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-accordion-faq-component"
+    },
+    {
+      "index": 57,
+      "title": "Build: Accordion / FAQ Component",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-accordion-faq-component",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\57-build-accordion-faq-component.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-modal-dialog-component"
+    },
+    {
+      "index": 58,
+      "title": "Build: Modal / Dialog Component",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-modal-dialog-component",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\58-build-modal-dialog-component.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-custom-dropdown-select"
+    },
+    {
+      "index": 59,
+      "title": "Build: Custom Dropdown / Select",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-custom-dropdown-select",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\59-build-custom-dropdown-select.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-tic-tac-toe-game"
+    },
+    {
+      "index": 60,
+      "title": "Build: Tic-Tac-Toe Game",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-tic-tac-toe-game",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\60-build-tic-tac-toe-game.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-pagination-component"
+    },
+    {
+      "index": 61,
+      "title": "Build: Pagination Component",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-pagination-component",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\61-build-pagination-component.pdf",
+      "next": "https://www.geekyfrontend.in/learn/react-interview-kit/build-shopping-cart-with-context"
+    },
+    {
+      "index": 62,
+      "title": "Build: Shopping Cart with Context",
+      "url": "https://www.geekyfrontend.in/learn/react-interview-kit/build-shopping-cart-with-context",
+      "file": "C:\\Users\\Avadhut\\Desktop\\OfficeDataGDriveSync\\Obsidean\\Avadhut Notes FolderSync\\Avadhut Notes Google Drive\\1. Web Development\\3. JavaScript\\Geeky Frontend Courses Backup\\React Interview Kit\\PDF\\62-build-shopping-cart-with-context.pdf",
+      "next": null
+    }
+  ]
+}

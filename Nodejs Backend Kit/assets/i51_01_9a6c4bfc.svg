@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 420" font-family="ui-sans-serif, system-ui, sans-serif">
+  <rect x="0" y="0" width="820" height="420" rx="20" fill="#f8fafc" stroke="#e2e8f0" stroke-width="2"/>
+  <text x="410" y="42" text-anchor="middle" font-size="23" font-weight="bold" fill="#0f172a">Crash-only: let it die, let it restart</text>
+
+  <rect x="40" y="80" width="200" height="90" rx="14" fill="#fef2f2" stroke="#dc2626" stroke-width="2"/>
+  <text x="140" y="112" text-anchor="middle" font-size="15" font-weight="bold" fill="#dc2626">uncaughtException</text>
+  <text x="140" y="136" text-anchor="middle" font-size="12" fill="#334155">or unhandled</text>
+  <text x="140" y="156" text-anchor="middle" font-size="12" fill="#334155">rejection fires</text>
+
+  <rect x="310" y="80" width="200" height="90" rx="14" fill="#faf5ff" stroke="#9333ea" stroke-width="2"/>
+  <text x="410" y="106" text-anchor="middle" font-size="15" font-weight="bold" fill="#9333ea">handler runs</text>
+  <text x="410" y="130" text-anchor="middle" font-size="12" fill="#334155">log the error,</text>
+  <text x="410" y="150" text-anchor="middle" font-size="12" fill="#334155">flush, cleanup</text>
+
+  <rect x="580" y="80" width="200" height="90" rx="14" fill="#eff6ff" stroke="#3b82f6" stroke-width="2"/>
+  <text x="680" y="106" text-anchor="middle" font-size="15" font-weight="bold" fill="#3b82f6">process.exit(1)</text>
+  <text x="680" y="130" text-anchor="middle" font-size="12" fill="#334155">do not resume</text>
+  <text x="680" y="150" text-anchor="middle" font-size="12" fill="#334155">a poisoned proc</text>
+
+  <line x1="240" y1="125" x2="304" y2="125" stroke="#94a3b8" stroke-width="2" marker-end="url(#a12)"/>
+  <line x1="510" y1="125" x2="574" y2="125" stroke="#94a3b8" stroke-width="2" marker-end="url(#a12)"/>
+
+  <rect x="230" y="220" width="360" height="80" rx="14" fill="#f0fdf4" stroke="#16a34a" stroke-width="2"/>
+  <text x="410" y="252" text-anchor="middle" font-size="15" font-weight="bold" fill="#16a34a">Supervisor restarts a fresh process</text>
+  <text x="410" y="278" text-anchor="middle" font-size="12" fill="#334155">systemd &#183; PM2 &#183; Kubernetes &#183; Docker restart</text>
+
+  <line x1="680" y1="170" x2="680" y2="260" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="680" y1="260" x2="594" y2="260" stroke="#94a3b8" stroke-width="2" marker-end="url(#a12)"/>
+  <line x1="230" y1="260" x2="140" y2="260" stroke="#94a3b8" stroke-width="2"/>
+  <line x1="140" y1="260" x2="140" y2="174" stroke="#94a3b8" stroke-width="2" marker-end="url(#a12)"/>
+
+  <text x="410" y="350" text-anchor="middle" font-size="13" fill="#64748b">Clean state beats a limping process. Never keep serving after an unknown crash.</text>
+  <text x="410" y="378" text-anchor="middle" font-size="12" fill="#64748b">Pair with graceful shutdown so in-flight requests finish before exit.</text>
+
+  <defs>
+    <marker id="a12" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#94a3b8"/>
+    </marker>
+  </defs>
+</svg>
